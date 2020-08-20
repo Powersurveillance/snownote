@@ -105,15 +105,15 @@ header::after{
 }
 
 .stock span{
-  font-size: 11px;
-  margin-left: 15px;
-  color: blue;
+  font-size: 13px;
+  margin-left: 19px;
+  color: white;
 }
 
 .stock li{
-  font-size: 11px;
+  font-size: 13px;
   list-style: none;
-  color: blue;
+  color: white;
   margin-top: 14px;
 }
 
