@@ -141,7 +141,7 @@ header::after{
 
 .net{
   width: 20%;
-  height: 300px;
+  height: 200px;
   float: left;
   margin-left: 11%;
   border-top: 3px solid blue;
@@ -160,7 +160,7 @@ header::after{
 }
 
 .net small{
-  font-size: 50px;
+  font-size: 70px;
   color: lightgrey;
   margin-top: 20px;
   margin-bottom: 15px;
