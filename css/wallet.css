@@ -91,7 +91,28 @@ header::after{
   content: '';
 }
 
+.box{
+  width: 40%;
+  float: left;
+}
 
+.inbox{
+  width: 60%;
+  float: right;
+}
+
+.inbox h2{
+  text-align:center;
+  color: white;
+}
+
+.inbox p{
+  width: 90%;
+  height: 5%;
+  color: grey;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
 
 
 footer{
