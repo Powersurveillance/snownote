@@ -121,7 +121,7 @@ header::after{
 }
 
 .box{
-  width: 35%;
+  width: 40%;
   float: right;
 }
 
@@ -133,7 +133,7 @@ header::after{
 }
 
 .inbox{
-  width: 65%;
+  width: 60%;
   float: left;
 }
 
