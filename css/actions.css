@@ -158,9 +158,10 @@ header::after{
   border-right: 3px solid blue;
 }
 
-.net i{
-  text-align: center;
-  size: 30;
+.net small{
+  width: 90%;
+  margin-left: 5%;
+  font-size: 30px;
   color: lightgrey;
   margin-top: 20px;
   margin-bottom: 15px;
