@@ -155,7 +155,7 @@ header::after{
 }
 
 .net:hover{
-  background: linear-gradient(blue 20%;darkblue 80%);
+  background: linear-gradient(blue 20%,darkblue 80%);
   box-shadow: 0 0 20px blue;
   border-top: 4px solid darkblue;
   border-bottom: 4px solid blue;
