@@ -107,6 +107,8 @@ header::after{
 }
 
 .rat p{
+  width: 90%;
+  margin-left: 5%;
   color: white;
   font-size: 30px;
   margin-top: 10px;
