@@ -91,6 +91,18 @@ header::after{
   content: '';
 }
 
+.rick{
+  width: 100%;
+}
+
+.rick h2{
+  width: 90%;
+  margin-left: 5%;
+  color: lightgrey;
+  text-align: center;
+  border-bottom: 3px solid lightblue;
+}
+
 .net{
   width: 16%;
   float: left;
