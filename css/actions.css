@@ -122,6 +122,23 @@ header::after{
   float: right;
 }
 
+.inbox h2{
+  color: grey;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  text-decoration: underline;
+  font-size: 20px;
+}
+
+.inbox p{
+  color: darkgrey;
+  margin-bottom: 15px;
+  width: 90%;
+  margin-left: 5%;
+  font-size: 15px;
+}
+
 
 footer{
   width: 100%;
