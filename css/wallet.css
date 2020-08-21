@@ -104,6 +104,7 @@ header::after{
 .inbox h2{
   text-align:center;
   color: white;
+  border-bottom: 2px solid blue;
 }
 
 .inbox p{
