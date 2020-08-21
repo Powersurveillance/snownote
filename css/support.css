@@ -89,6 +89,21 @@ header::after{
   content: '';
 }
 
+.net{
+  width: 16%;
+  float: left;
+}
+
+.net h2{
+  color: white;
+  text-align: center;
+}
+
+.net li{
+  list-style: none;
+  color: darkgrey;
+  display: block;
+}
 
 
 
