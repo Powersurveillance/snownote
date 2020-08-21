@@ -143,20 +143,20 @@ header::after{
   width: 20%;
   height: 200px;
   float: left;
-  margin-left: 11%;
-  border-top: 3px solid blue;
-  border-bottom: 3px solid darkblue;
-  border-left: 3px solid blue;
-  border-right: 3px solid darkblue;
-  border-radius: 5px;
+  margin-left: 10%;
+  border-top: 4px solid blue;
+  border-bottom: 4px solid darkblue;
+  border-left: 4px solid blue;
+  border-right: 4px solid darkblue;
+  border-radius: 10px;
   text-align: center;
 }
 
 .net:hover{
-  border-top: 3px solid darkblue;
-  border-bottom: 3px solid blue;
-  border-left: 3px solid darkblue;
-  border-right: 3px solid blue;
+  border-top: 4px solid darkblue;
+  border-bottom: 4px solid blue;
+  border-left: 4px solid darkblue;
+  border-right: 4px solid blue;
 }
 
 .net small{
@@ -169,6 +169,8 @@ header::after{
 .net p{
   text-align: center;
   color: white;
+  margin-top: 20px;
+  margin-bottom: 15px;
 }
 
 
