@@ -100,8 +100,8 @@ header::after{
   margin-left: 5%;
   margin-top: 15px;
   margin-bottom: 15px;
-  border-left: 2px solid darkblue;
-  border-bottom: 2px solid darkblue;
+  border-left: 4px solid darkblue;
+  border-bottom: 4px solid darkblue;
 }
 
 .stock span{
