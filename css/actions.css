@@ -139,6 +139,36 @@ header::after{
   font-size: 15px;
 }
 
+.net{
+  width: 20%;
+  height: 200%;
+  float: left;
+  margin-left: 13%;
+  border-top: 2px solid blue;
+  border-bottom: 2px solid darkblue;
+  border-left: 2px solid blue;
+  border-right: 2px solid darkblue;
+  border-radius: 5px;
+}
+
+.net:hover{
+  border-top: 2px solid darkblue;
+  border-bottom: 2px solid blue;
+  border-left: 2px solid darkblue;
+  border-right: 2px solid blue;
+}
+
+.net small{
+  text-align: center;
+  font-size: 30px;
+  color: lightgrey;
+}
+
+.net p{
+  text-align: center;
+  color: white;
+}
+
 
 footer{
   width: 100%;
