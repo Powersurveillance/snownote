@@ -161,6 +161,35 @@ header::after{
   margin-bottom: 10px;
 }
 
+.inbox nav{
+  width: 100%;
+}
+
+.inbox nav ul{
+
+}
+
+.inbox nav ul li{
+  text-align: center;
+  display: inline-block;
+  width: 20%;
+  height: 40px;
+  background: blue;
+  border-radius: 5px;
+  margin-left: 13%;
+  border: 2px solid blue;
+}
+
+.inbox nav ul li:hover{
+  box-shadow: 0 0 10px blue;
+  background: linear-gradient(blue 20%, darkblue 80%);
+}
+
+.inbox nav ul li a{
+  color: white;
+  text-decoration: none;
+}
+
 .net{
   width: 20%;
   height: 200px;
