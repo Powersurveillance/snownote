@@ -184,6 +184,12 @@ header::after{
   margin-bottom: 30px;
   border-radius: 5px;
   background: blue;
+  border: 2px solid blue;
+}
+
+.nit button:hover{
+  box-shadow: 0 0 10px blue;
+  background: linear-gradient(blue 20%,black 80%);
 }
 
 
