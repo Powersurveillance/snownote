@@ -192,6 +192,15 @@ header::after{
   border-right: 2px solid darkblue;
 }
 
+.nit textarea:hover{
+  background: linear-gradient(blue 20%,darkblue 80%);
+  box-shadow: 0 0 10px blue;
+  border-top: 2px solid darkblue;
+  border-bottom: 2px solid blue;
+  border-left: 2px solid darkblue;
+  border-right: 2px solid blue;
+}
+
 .nit button{
   text-align: center;
   color: white;
