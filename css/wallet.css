@@ -102,6 +102,12 @@ header::after{
   height: 150px;
 }
 
+.rut{
+  width: 20%;
+  margin-left: 12%;
+  float: left;
+}
+
 .inbox{
   width: 60%;
   float: right;
