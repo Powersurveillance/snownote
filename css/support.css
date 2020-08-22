@@ -111,9 +111,9 @@ header::after{
 
 .inbox h2{
   text-align: center;
-  color: green;
+  color: white;
   font-size: 25px;
-  border-bottom: 2px solid white;
+  border-bottom: 2px solid blue;
   width: 90%;
   margin-left: 5%;
   margin-bottom: 20px;
@@ -121,7 +121,7 @@ header::after{
 }
 
 .inbox p{
-  color: white;
+  color: grey;
   font-size: 18px;
   width: 94%;
   margin-left: 3%;
