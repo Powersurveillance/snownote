@@ -93,6 +93,7 @@ header::after{
 
 .nut{
   width: 100%;
+  border-bottom: 4px solid blue;
   margin-top: 10px;
   margin-bottom: 10px;
   text-align: center;
