@@ -148,6 +148,7 @@ header::after{
 }
 
 .nit input:hover{
+  box-shadow: 0 0 10px blue;
   border-top: 2px solid darkblue;
   border-bottom: 2px solid blue;
   border-left: 2px solid darkblue;
