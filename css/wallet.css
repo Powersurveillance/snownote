@@ -96,6 +96,12 @@ header::after{
   float: left;
 }
 
+.box img{
+  width: 90%;
+  margin-left: 5%;
+  height: 60px;
+}
+
 .inbox{
   width: 60%;
   float: right;
