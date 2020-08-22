@@ -80,6 +80,8 @@ header::after{
 
 .contanier{
   width: 100%;
+  margin-top: 40px;
+  margin-bottom: 40px;
   background-size: cover;
 }
 
@@ -99,18 +101,20 @@ header::after{
   width: 20%;
   margin-left: 30%;
   height: 70px;
-  margin-top: 15px;
 }
 
 .box{
   width: 40%;
   float: left;
+  background: black;
 }
 
 .box h2{
   text-align: center;
   color: white;
   text-decoration: underline;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .box p{
