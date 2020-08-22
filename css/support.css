@@ -111,6 +111,7 @@ header::after{
 }
 
 .rick p{
+  text-align: center;
   width: 96%;
   margin-left: 2%;
   color: white;
