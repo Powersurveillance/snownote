@@ -92,13 +92,36 @@ header::after{
 }
 
 .box{
-  width: 30px;
+  width: 30%;
   float: left;
+}
+
+.box img{
+  width: 90%;
+  margin-left: 5%;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .inbox{
   width: 70%;
   float: right;
+}
+
+.inbox h2{
+  text-align: center;
+  color: green;
+  font-size: 20px;
+  border-bottom: 2px solid white;
+  width: 90%;
+  margin-left: 5%;
+}
+
+.inbox p{
+  color: white;
+  font-size: 18px;
+  width: 94%;
+  margin-left: 3%;
 }
 
 .rick{
