@@ -89,6 +89,18 @@ header::after{
   content: '';
 }
 
+.nut{
+  width: 100%;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.nut h1{
+  color: white;
+  font-size: 40px;
+}
+
 .box{
   width: 45%;
   float: left;
