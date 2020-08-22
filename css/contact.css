@@ -159,10 +159,10 @@ header::after{
 .nit select{
   color: white;
   background: blue;
-  width: 60%;
+  width: 70%;
   height: 40px;
   margin-bottom: 30px;
-  margin-left: 20%;
+  margin-left: 15%;
   border-top: 2px solid blue;
   border-bottom: 2px solid darkblue;
   border-left: 2px solid blue;
@@ -182,10 +182,10 @@ header::after{
 .nit textarea{
   color: white;
   background: blue;
-  width: 60%;
+  width: 70%;
   height: 100px;
   margin-bottom: 30px;
-  margin-left: 20%;
+  margin-left: 15%;
   border-top: 2px solid blue;
   border-bottom: 2px solid darkblue;
   border-left: 2px solid blue;
