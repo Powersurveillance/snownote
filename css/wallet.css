@@ -121,6 +121,44 @@ header::after{
   margin-bottom: 10px;
 }
 
+.net{
+  width: 20%;
+  height: 200px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  float: left;
+  margin-left: 10%;
+  border-top: 4px solid blue;
+  border-bottom: 4px solid darkblue;
+  border-left: 4px solid blue;
+  border-right: 4px solid darkblue;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.net:hover{
+  background: linear-gradient(blue 20%,darkblue 80%);
+  box-shadow: 0 0 20px blue;
+  border-top: 4px solid darkblue;
+  border-bottom: 4px solid blue;
+  border-left: 4px solid darkblue;
+  border-right: 4px solid blue;
+}
+
+.net small{
+  font-size: 70px;
+  color: lightgrey;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+.net p{
+  text-align: center;
+  color: white;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
 
 footer{
   width: 100%;
