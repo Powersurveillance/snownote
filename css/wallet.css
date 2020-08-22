@@ -103,9 +103,19 @@ header::after{
 }
 
 .rut{
+  text-align: center;
   width: 20%;
   margin-left: 12%;
   float: left;
+}
+
+.rut small{
+  color: blue;
+  font-size: 30px;
+}
+
+.rut p{
+  color: white;
 }
 
 .inbox{
