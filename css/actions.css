@@ -102,6 +102,7 @@ header::after{
   margin-bottom: 15px;
   border-left: 4px solid darkblue;
   border-bottom: 4px solid darkblue;
+  border-right: 4px solid darkblue;
 }
 
 .stock:hover{
