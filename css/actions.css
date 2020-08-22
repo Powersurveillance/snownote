@@ -101,7 +101,7 @@ header::after{
   font-size: 40px;
 }
 
-.rit{
+.work{
   background: black;
   width: 40%;
   margin-left: 5%;
@@ -109,17 +109,17 @@ header::after{
   text-align: center;
 }
 
-.rit img{
+.work img{
   width: 60%;
-  height: 50px;
+  height: 100px;
 }
 
-.rit small{
+.work small{
   color: white;
-
+  font-size: 70px;
 }
 
-.rit p{
+.work p{
   color: white;
 }
 
