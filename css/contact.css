@@ -129,17 +129,17 @@ header::after{
 
 .nit label{
   color: white;
-  width: 96%;
-  margin-left: 2%;
+  width: 50%;
+  margin-left: 25%;
 }
 
 .nit input{
   color: white;
   background: blue;
-  width: 96%;
+  width: 50%;
   height: 40px;
   margin-bottom: 30px;
-  margin-left: 2%;
+  margin-left: 25%;
   border-top: 2px solid blue;
   border-bottom: 2px solid darkblue;
   border-left: 2px solid blue;
@@ -157,10 +157,10 @@ header::after{
 .nit select{
   color: white;
   background: blue;
-  width: 96%;
+  width: 50%;
   height: 40px;
   margin-bottom: 30px;
-  margin-left: 2%;
+  margin-left: 25%;
   border-top: 2px solid blue;
   border-bottom: 2px solid darkblue;
   border-left: 2px solid blue;
@@ -178,10 +178,10 @@ header::after{
 .nit textarea{
   color: white;
   background: blue;
-  width: 96%;
+  width: 50%;
   height: 100px;
   margin-bottom: 30px;
-  margin-left: 2%;
+  margin-left: 25%;
   border-top: 2px solid blue;
   border-bottom: 2px solid darkblue;
   border-left: 2px solid blue;
@@ -192,7 +192,7 @@ header::after{
   text-align: center;
   color: white;
   width: 30%;
-  margin-left: 2%;
+  margin-left: 25%;
   height: 40px;
   margin-top: 30px;
   margin-bottom: 30px;
