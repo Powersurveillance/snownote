@@ -91,6 +91,17 @@ header::after{
   content: '';
 }
 
+.nut{
+  width: 100%;
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.nut h1{
+  color: lightgrey;
+  font-size: 40px;
+}
 
 .box{
   width: 40%;
