@@ -105,7 +105,7 @@ header::after{
 }
 
 .stock:hover{
-  background: linear-gradient(blue 99%,#1e1e1e 1%);
+  background: linear-gradient(#1e1e1e 1%,blue 99%);
 }
 
 .stock span{
