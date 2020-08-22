@@ -135,6 +135,7 @@ header::after{
 
 .nit input{
   color: white;
+  background: #1e1e1e;
   width: 96%;
   height: 40px;
   margin-left: 2%;
@@ -146,6 +147,7 @@ header::after{
 
 .nit select{
   color: white;
+  background: #1e1e1e;
   width: 96%;
   height: 40px;
   margin-left: 2%;
@@ -157,6 +159,7 @@ header::after{
 
 .nit textarea{
   color: lightblue;
+  background: #1e1e1e;
   width: 96%;
   height: 100px;
   margin-left: 2%;
