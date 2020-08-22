@@ -91,6 +91,16 @@ header::after{
   content: '';
 }
 
+.box{
+  width: 30px;
+  float: left;
+}
+
+.inbox{
+  width: 70%;
+  float: right;
+}
+
 .rick{
   width: 100%;
   margin-bottom: 20px;
