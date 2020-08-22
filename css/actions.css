@@ -104,6 +104,10 @@ header::after{
   border-bottom: 4px solid darkblue;
 }
 
+.stock:hover{
+  background: linear-gradient(blue 1%,#1e1e1e 99%);
+}
+
 .stock span{
   font-size: 13px;
   margin-left: 25px;
