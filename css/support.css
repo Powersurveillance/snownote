@@ -109,6 +109,15 @@ header::after{
   border-bottom: 3px solid lightblue;
 }
 
+.rick p{
+  width: 96%;
+  margin-left: 2%;
+  color: white;
+  font-size: 25px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
 .net{
   width: 16%;
   float: left;
