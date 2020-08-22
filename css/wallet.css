@@ -114,6 +114,18 @@ header::after{
   height: 150px;
 }
 
+.root{
+  text-align: center;
+  width: 90%;
+  height: 150px;
+  margin-left: 5%;
+}
+
+.root small{
+  font-size: 30px;
+  color: white;
+}
+
 .rut{
   text-align: center;
   width: 20%;
@@ -122,7 +134,7 @@ header::after{
 }
 
 .rut small{
-  color: blue;
+  color: white;
   font-size: 30px;
 }
 
