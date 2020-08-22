@@ -189,7 +189,7 @@ header::after{
 
 .nit button:hover{
   box-shadow: 0 0 10px blue;
-  background: linear-gradient(blue 20%,black 80%);
+  background: linear-gradient(blue 20%,darkblue 80%);
 }
 
 
