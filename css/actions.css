@@ -104,9 +104,10 @@ header::after{
 .work{
   background: black;
   width: 40%;
-  margin-left: 3%;
+  margin-left: 5%;
   border: 4px solid blue;
   text-align: center;
+  float: left;
 }
 
 .work img{
