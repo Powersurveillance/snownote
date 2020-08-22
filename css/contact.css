@@ -147,6 +147,13 @@ header::after{
   border-radius: 5px;
 }
 
+.nit input:hover{
+  border-top: 2px solid darkblue;
+  border-bottom: 2px solid blue;
+  border-left: 2px solid darkblue;
+  border-right: 2px solid blue;
+}
+
 .nit select{
   color: white;
   background: #1e1e1e;
@@ -159,6 +166,13 @@ header::after{
   border-left: 2px solid blue;
   border-right: 2px solid darkblue;
   border-radius: 5px;
+}
+
+.nit select:hover{
+  border-top: 2px solid darkblue;
+  border-bottom: 2px solid blue;
+  border-left: 2px solid darkblue;
+  border-right: 2px solid blue;
 }
 
 .nit textarea{
