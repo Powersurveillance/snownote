@@ -109,8 +109,9 @@ header::after{
 .rat i{
   margin-top: 20px;
   margin-bottom: 20px;
+  margin-left: 5%;
   color: white;
-  size:30px;
+  size:30;
 }
 
 .rat p{
