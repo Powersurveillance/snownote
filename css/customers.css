@@ -1,0 +1,204 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  margin: 0px;
+  padding: 0px;
+  background: #1e1e1e;
+}
+
+header{
+  width: 100%;
+  height: 150px;
+  background: black;
+}
+
+header::after{
+  content: '';
+  clear: both;
+  display: table;
+}
+
+.in{
+  width: 30%;
+  height: 150px;
+  float: left;
+}
+
+.in img{
+  width: 50%;
+  height: 110px;
+  margin-left: 25%;
+  margin-top: 20px;
+}
+
+.out{
+    width: 70%;
+    height: 150px;
+    float: right;
+}
+
+.out nav{
+
+}
+
+.out nav ul{
+
+}
+
+.out nav ul li{
+  width: 13%;
+  display: inline-block;
+  text-align: center;
+  margin-left: 2%;
+  border-top: 2px solid grey;
+  border-bottom: 2px solid darkgrey;
+  border-left: 2px solid grey;
+  border-right: 2px solid darkgrey;
+  border-radius: 10px;
+  margin-top: 70px;
+}
+
+.out nav ul li:hover{
+  border-top: 2px solid blue;
+  border-bottom: 2px solid darkblue;
+  border-left: 2px solid blue;
+  border-right: 2px solid darkblue;
+}
+
+.out nav ul li a{
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+
+.out nav ul li a:hover{
+  color: skyblue;
+}
+
+.contanier{
+  width: 100%;
+  background-size: cover;
+}
+
+.contanier::after{
+  clear: both;
+  display: table;
+  content: '';
+}
+
+
+
+
+
+footer{
+  width: 100%;
+  background: black;
+}
+
+footer::after{
+  clear: both;
+  display: table;
+  content: '';
+}
+
+.rit{
+  width: 35%;
+  float: left;
+}
+
+.rit ul{
+
+}
+
+.rit ul li{
+  display: inline-block;
+  width: 40%;
+  margin-top: 70px;
+  margin-bottom: 70px;
+  margin-left: 5%;
+  text-align: center;
+}
+
+.rit ul li a{
+  font-size: 60px;
+}
+
+.rit ul li a i{
+  color:blue;
+  border: 2px solid black;
+  border-radius: 8px;
+}
+
+.rit ul li a i:hover{
+  box-shadow: 0 0 20px blue;
+  color:blue;
+  border-top: 2px solid darkblue;
+  border-bottom: 2px solid blue;
+  border-left: 2px solid darkblue;
+  border-right: 2px solid blue;
+}
+
+.kick{
+  width: 65%;
+  float: right;
+}
+
+.to{
+  width: 50%;
+  float: left;
+}
+
+.to ul{
+
+}
+
+.to ul li{
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: block;
+  text-align: center;
+}
+
+.to ul li a{
+  text-decoration: none;
+  font-size: 20px;
+  color: grey;
+}
+
+.to ul li a:hover{
+  text-decoration: underline;
+  color: darkgrey;
+}
+
+.ru{
+  width: 50%;
+  float: right;
+}
+
+.ru ul li{
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: block;
+  text-align: left;
+}
+
+.ru ul li a{
+  text-decoration: none;
+  font-size: 20px;
+  color: grey;
+}
+
+.ru ul li a:hover{
+  text-decoration: underline;
+  color: darkgrey;
+}
+
+.ru p{
+  color: white;
+
+}
