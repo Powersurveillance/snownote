@@ -94,9 +94,31 @@ header::after{
   float: left;
 }
 
+.box img{
+  width: 90%;
+  margin-left: 5%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
 .inbox{
   width: 65%;
   float: right;
+}
+
+.inbox h2{
+  text-align: center;
+  border-bottom: 3px solid red;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 23px;
+}
+
+.inbox p{
+  width: 90%;
+  margin-left: 5%;
+  margin-top: 10px;
+  font-size: 20px;
 }
 
 
