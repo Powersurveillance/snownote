@@ -129,10 +129,13 @@ header::after{
   margin-left: 15%;
   background: #1e1e1e;
   height: 200px;
-  border-top: 2px solid darkred;
-  border-bottom: 2px solid red;
-  border-left: 2px solid red;
-  border-right: 2px solid darkred;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-top: 3px solid darkred;
+  border-bottom: 3px solid red;
+  border-left: 3px solid red;
+  border-right: 3px solid darkred;
+  border-radius: 10px;
 }
 
 
