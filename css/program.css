@@ -125,7 +125,9 @@ header::after{
 
 .inbox textarea{
   color: orange;
-  width: 90%;
+  width: 70%;
+  margin-left: 15%;
+  background: #1e1e1e;
   height: 200px;
   border-top: 2px solid darkred;
   border-bottom: 2px solid red;
