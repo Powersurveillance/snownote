@@ -107,6 +107,7 @@ header::after{
 }
 
 .inbox h2{
+  color: white;
   text-align: center;
   border-bottom: 3px solid red;
   margin-top: 20px;
@@ -115,6 +116,7 @@ header::after{
 }
 
 .inbox p{
+  color: lightgrey;
   width: 90%;
   margin-left: 5%;
   margin-top: 10px;
