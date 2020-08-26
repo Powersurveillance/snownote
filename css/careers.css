@@ -97,7 +97,7 @@ header::after{
 
 .box form{
   width: 100%;
-  
+
 }
 
 .to{
@@ -107,7 +107,7 @@ header::after{
 
 .to label{
   color: white;
-  font-size: 20px;
+  font-size: 15px;
   width: 80%;
   margin-left: 10%;
 }
