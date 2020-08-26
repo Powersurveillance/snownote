@@ -98,7 +98,8 @@ header::after{
 }
 
 .to{
-  width: 100%;
+  width: 80%;
+  margin-left: 10%;
 }
 
 .to label{
