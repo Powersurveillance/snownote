@@ -90,6 +90,71 @@ header::after{
   content: '';
 }
 
+.lit{
+  width: 90%;
+  margin-left: 5%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.lit label{
+  color: white;
+  font-size: 20px;
+  width: 50%;
+  margin-left: 25%;
+}
+
+.lit input{
+  width: 50%;
+  margin-left: 25%;
+  background: #1e1e1e;
+  color: white;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  height: 40px;
+  border-top:2px solid blue;
+  border-bottom:2px solid darkblue;
+  border-left:2px solid darkblue;
+  border-right: 2px solid blue;
+}
+
+.lit select{
+  width: 50%;
+  margin-left: 25%;
+  background: #1e1e1e;
+  color: white;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  height: 40px;
+  border-top:2px solid blue;
+  border-bottom:2px solid darkblue;
+  border-left:2px solid darkblue;
+  border-right: 2px solid blue;
+}
+
+.lit textarea{
+  width: 50%;
+  margin-left: 25%;
+  background: #1e1e1e;
+  color: white;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  height: 150px;
+  border-top:2px solid blue;
+  border-bottom:2px solid darkblue;
+  border-left:2px solid darkblue;
+  border-right: 2px solid blue;
+}
+
+.lit button{
+  width: 50%;
+  margin-left: 25%;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  background: blue;
+  color: white;
+}
+
 .box{
   width: 35%;
   float: left;
