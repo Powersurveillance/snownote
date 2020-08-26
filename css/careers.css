@@ -91,13 +91,53 @@ header::after{
 }
 
 .box{
-  width: 30%;
+  width: 35%;
   float: left;
+}
+
+.box h2{
+  width: 80%;
+  margin-left: 10%;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  color: white;
+  border-bottom: 3px solid blue;
+}
+
+.box ul{
+
+}
+
+.box ul li{
+  list-style: none;
+  font-size: 20px;
+  text-decoration: none;
+  color: lightblue;
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  
 }
 
 .inbox{
   float: right;
-  width: 70%;
+  width: 65%;
+}
+
+.inbox h2{
+  color: white;
+  border-bottom: 3px solid blue;
+  font-size: 30px;
+  margin-top: 17px;
+  margin-bottom: 17px;
+}
+
+.inbox p{
+  color: grey;
+  font-size: 25px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 
