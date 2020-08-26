@@ -90,13 +90,6 @@ header::after{
   content: '';
 }
 
-.lit{
-  width: 90%;
-  margin-left: 5%;
-  margin-top: 30px;
-  margin-bottom: 30px;
-}
-
 .to{
   width: 80%;
   margin-left: 10%;
