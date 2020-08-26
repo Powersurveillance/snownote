@@ -97,6 +97,11 @@ header::after{
   margin-bottom: 30px;
 }
 
+.to{
+  width: 90%;
+  margin-left: 5%;
+}
+
 .to label{
   color: white;
   font-size: 20px;
