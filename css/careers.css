@@ -97,14 +97,14 @@ header::after{
   margin-bottom: 30px;
 }
 
-.lit label{
+.to label{
   color: white;
   font-size: 20px;
   width: 50%;
   margin-left: 25%;
 }
 
-.lit input{
+.to input{
   width: 50%;
   margin-left: 25%;
   background: #1e1e1e;
@@ -118,7 +118,7 @@ header::after{
   border-right: 2px solid blue;
 }
 
-.lit select{
+.to select{
   width: 50%;
   margin-left: 25%;
   background: #1e1e1e;
@@ -132,7 +132,7 @@ header::after{
   border-right: 2px solid blue;
 }
 
-.lit textarea{
+.to textarea{
   width: 50%;
   margin-left: 25%;
   background: #1e1e1e;
@@ -146,7 +146,7 @@ header::after{
   border-right: 2px solid blue;
 }
 
-.lit button{
+.to button{
   width: 50%;
   margin-left: 25%;
   margin-top: 15px;
