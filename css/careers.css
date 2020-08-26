@@ -98,13 +98,13 @@ header::after{
 .to label{
   color: white;
   font-size: 20px;
-  width: 50%;
-  margin-left: 25%;
+  width: 80%;
+  margin-left: 10%;
 }
 
 .to input{
-  width: 50%;
-  margin-left: 25%;
+  width: 80%;
+  margin-left: 10%;
   background: #1e1e1e;
   color: white;
   margin-top: 15px;
@@ -117,8 +117,8 @@ header::after{
 }
 
 .to select{
-  width: 50%;
-  margin-left: 25%;
+  width: 80%;
+  margin-left: 10%;
   background: #1e1e1e;
   color: white;
   margin-top: 15px;
@@ -131,8 +131,8 @@ header::after{
 }
 
 .to textarea{
-  width: 50%;
-  margin-left: 25%;
+  width: 80%;
+  margin-left: 10%;
   background: #1e1e1e;
   color: white;
   margin-top: 15px;
@@ -145,8 +145,8 @@ header::after{
 }
 
 .to button{
-  width: 50%;
-  margin-left: 25%;
+  width: 80%;
+  margin-left: 10%;
   margin-top: 15px;
   margin-bottom: 10px;
   background: blue;
