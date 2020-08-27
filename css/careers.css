@@ -127,6 +127,7 @@ header::after{
 
 .nut input:hover{
   background: linear-gradient(blue 20%,darkblue 80%);
+  box-shadow: 0 0 10px blue;
 }
 
 .nut select{
@@ -145,6 +146,7 @@ header::after{
 
 .nut select:hover{
   background: linear-gradient(blue 20%,darkblue 80%);
+  box-shadow: 0 0 10px blue;
 }
 
 .nut textarea{
@@ -163,6 +165,7 @@ header::after{
 
 .nut textarea:hover{
   background: linear-gradient(blue 20%,darkblue 80%);
+  box-shadow: 0 0 10px blue;
 }
 
 .nut button{
@@ -179,6 +182,7 @@ header::after{
 
 .nut button:hover{
   background: linear-gradient(blue 20%,darkblue 80%);
+  box-shadow: 0 0 10px blue;
 }
 
 .box h2{
