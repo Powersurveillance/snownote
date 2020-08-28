@@ -89,37 +89,6 @@ header::after{
   content: '';
 }
 
-.ok{
-  width: 100%;
-  margin-top: 40px;
-  margin-bottom: 40px;
-}
-
-.ok img{
-  width: 30%;
-  height: 150px;
-  margin-left: 35%;
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-
-.ok h2{
-  text-align: center;
-  color: white;
-  border-bottom: 4px solid blue;
-  width: 90%;
-  margin-left: 5%;
-}
-
-.ok p{
-  text-align: center;
-  color: grey;
-  width: 90%;
-  margin-left:5%;
-  font-size: 20px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
 
 .box{
   width: 35%;
