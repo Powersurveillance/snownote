@@ -134,6 +134,17 @@ footer::after{
   content: '';
 }
 
+.nev{
+  width: 100%;
+}
+
+.nav img{
+  width: 40%;
+  height: 100px;
+  margin-left: 30%;
+
+}
+
 .rit{
   width: 35%;
   float: left;
