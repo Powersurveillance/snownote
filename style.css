@@ -115,6 +115,7 @@ header::after{
   text-align: center;
   color: grey;
   width: 90%;
+  margin-left:5%;
   margin-top: 10px;
   margin-bottom: 10px;
 }
