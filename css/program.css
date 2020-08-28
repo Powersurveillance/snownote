@@ -122,6 +122,10 @@ header::after{
   text-decoration: none;
 }
 
+.box nav ul li a:hover{
+  color: blue;
+}
+
 .inbox{
   width: 65%;
   float: right;
