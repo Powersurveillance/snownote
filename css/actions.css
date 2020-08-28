@@ -102,7 +102,7 @@ header::after{
 }
 
 .work{
-  background: black;
+  background:#1e1e1e ;
   width: 20%;
   margin-left: 20%;
   margin-top: 100px;
@@ -118,7 +118,7 @@ header::after{
   border-bottom: 4px solid darkblue;
   border-left: 4px solid blue;
   border-right: 4px solid darkblue;
-  box-shadow: 0 0 20px blue;
+  box-shadow: 0 0 30px blue;
   background: none;
 }
 
