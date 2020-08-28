@@ -115,6 +115,7 @@ header::after{
   display: block;
   margin-top: 30px;
   margin-bottom: 30px;
+  font-size: 25px;
 }
 
 .box nav ul li a{
