@@ -106,11 +106,14 @@ header::after{
 }
 
 .rat small{
+  font-size: 30px;
+}
+
+.rat small i{
   margin-top: 20px;
   margin-bottom: 20px;
   margin-left: 5%;
   color: white;
-  font-size: 30px;
 }
 
 .rat p{
