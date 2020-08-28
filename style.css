@@ -96,8 +96,9 @@ header::after{
 }
 
 .ok img{
-  width: 50%;
-  margin-left: 25%;
+  width: 30%;
+  height: 100px;
+  margin-left: 35%;
   margin-top: 10px;
   margin-bottom: 10px;
 }
