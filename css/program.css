@@ -94,11 +94,32 @@ header::after{
   float: left;
 }
 
-.box img{
+.box h2{
+  text-align: center;
+  color: white;
+  border-bottom: 3px solid lightblue;
+}
+
+.box nav{
+  width: 100%;
+}
+
+.box nav ul{
   width: 90%;
   margin-left: 5%;
+}
+
+
+.box nav ul li{
+  list-style: none;
+  display: block;
   margin-top: 20px;
   margin-bottom: 20px;
+}
+
+.box nav ul li a{
+  color: white;
+  text-decoration: none;
 }
 
 .inbox{
