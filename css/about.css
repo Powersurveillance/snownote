@@ -105,12 +105,12 @@ header::after{
   color: grey;
 }
 
-.rat i{
+.rat small{
   margin-top: 20px;
   margin-bottom: 20px;
   margin-left: 5%;
   color: white;
-  size:30;
+  font-size: 30px;
 }
 
 .rat p{
