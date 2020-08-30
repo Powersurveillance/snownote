@@ -114,7 +114,7 @@ header::after{
 .nut input{
   width: 80%;
   margin-left: 10%;
-  background: #1e1e1e;
+  background: blue;
   color: white;
   margin-top: 15px;
   margin-bottom: 10px;
@@ -134,7 +134,7 @@ header::after{
 .nut select{
   width: 80%;
   margin-left: 10%;
-  background: #1e1e1e;
+  background: blue;
   color: white;
   margin-top: 15px;
   margin-bottom: 10px;
@@ -154,7 +154,7 @@ header::after{
 .nut textarea{
   width: 80%;
   margin-left: 10%;
-  background: #1e1e1e;
+  background: blue;
   color: white;
   margin-top: 15px;
   margin-bottom: 10px;
