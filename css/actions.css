@@ -53,19 +53,12 @@ header::after{
   display: inline-block;
   text-align: center;
   margin-left: 2%;
-  border-top: 2px solid grey;
   border-bottom: 2px solid darkgrey;
-  border-left: 2px solid grey;
-  border-right: 2px solid darkgrey;
-  border-radius: 10px;
   margin-top: 70px;
 }
 
 .out nav ul li:hover{
-  border-top: 2px solid blue;
   border-bottom: 2px solid darkblue;
-  border-left: 2px solid blue;
-  border-right: 2px solid darkblue;
 }
 
 .out nav ul li a{
