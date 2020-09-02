@@ -53,7 +53,7 @@ header::after{
   display: inline-block;
   text-align: center;
   margin-left: 2%;
-  border-bottom: 2px solid darkgrey;
+  border-bottom: 2px solid black;
   margin-top: 70px;
 }
 
