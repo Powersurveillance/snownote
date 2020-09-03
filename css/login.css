@@ -95,6 +95,23 @@ header::after{
   margin-bottom: 100px;
 }
 
+.box ul{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.box ul li{
+  list-style: none;
+  text-align: center;
+  width: 60%;
+  margin-left: 20%;
+  background: blue;
+}
+
+.box ul li a{
+  color: white;
+}
+
 .inbox{
   width: 70%;
   float: right;
@@ -105,17 +122,17 @@ header::after{
   margin-left: 5%;
 }
 
-.dif{
+.rif{
   width: 100%;
 }
 
-.dif label{
+.rif label{
   width: 70%;
   margin-left: 15%;
   color: white;
 }
 
-.dif input{
+.rif input{
   width: 70%;
   margin-left: 15%;
   margin-top: 70px;
@@ -126,11 +143,11 @@ header::after{
   color: white;
 }
 
-.dif input:hover{
+.rif input:hover{
   border-bottom: 2px solid blue;
 }
 
-.dif button{
+.rif button{
   width: 70%;
   margin-left: 15%;
   margin-top: 50px;
@@ -141,7 +158,7 @@ header::after{
   border-radius: 8px;
 }
 
-.dif button:hover{
+.rif button:hover{
   background: linear-gradient(blue 80%,darkblue 20%);
   box-shadow: 0 0 0 20 blue;
 }
