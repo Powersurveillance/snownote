@@ -131,6 +131,7 @@ header::after{
 
 .rif{
   width: 100%;
+  position: absolute;
 }
 
 .rif label{
@@ -139,14 +140,23 @@ header::after{
   color: white;
 }
 
+.rif i{
+  position: relative;
+  left: 5%;
+  top:12px;
+  padding: 13px 11px;
+  color: white;
+}
+
 .rif input{
   width: 70%;
-  padding-left: 20px;
+  padding-left: 30px;
   height: 40px;
   font-size: 25px;
   margin-left: 15%;
   margin-top: 20px;
   margin-bottom: 100px;
+  border: 4px solid #1e1e1e;
   background: black;
   border-bottom: 4px solid #1e1e1e;
   border-radius: 7px;
@@ -154,7 +164,7 @@ header::after{
 }
 
 .rif input:hover{
-  border-bottom: 2px solid blue;
+  border-bottom: 4px solid blue;
 }
 
 .rif button{
