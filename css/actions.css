@@ -112,7 +112,7 @@ header::after{
   border-left: 4px solid blue;
   border-right: 4px solid darkblue;
   box-shadow: 0 0 30px blue;
-  background: none;
+  background: darkgrey;
 }
 
 .work img{
