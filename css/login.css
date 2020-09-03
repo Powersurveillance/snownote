@@ -129,6 +129,14 @@ header::after{
   margin-left: 5%;
 }
 
+.inbox form h2{
+  width: 100%;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 60px;
+  border-bottom: 3px solid blue;
+}
+
 .rif{
   width: 100%;
   position: relative;
