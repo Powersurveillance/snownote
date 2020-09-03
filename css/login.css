@@ -108,6 +108,7 @@ header::after{
   width: 60%;
   margin-left: 20%;
   background: blue;
+  border-radius: 8px;
 }
 
 .box ul li:hover{
