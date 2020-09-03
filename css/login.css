@@ -110,6 +110,8 @@ header::after{
 
 .box ul li a{
   color: white;
+  font-size: 30px;
+  text-decoration: none;
 }
 
 .inbox{
@@ -136,7 +138,7 @@ header::after{
   width: 70%;
   height: 40px;
   margin-left: 15%;
-  margin-top: 70px;
+  margin-top: 20px;
   margin-bottom: 100px;
   background: black;
   border-bottom: 2px solid #1e1e1e;
@@ -152,7 +154,7 @@ header::after{
   width: 70%;
   font-size: 30px;
   margin-left: 15%;
-  margin-top: 50px;
+  margin-top: 20px;
   margin-bottom: 50px;
   color: white;
   background: blue;
@@ -161,8 +163,8 @@ header::after{
 }
 
 .rif button:hover{
-  background: linear-gradient(blue 80%,darkblue 20%);
-  box-shadow: 0 0 0 20 blue;
+  background: linear-gradient(blue 20%,darkblue 80%);
+  box-shadow: 0 0 20px blue;
 }
 
 
