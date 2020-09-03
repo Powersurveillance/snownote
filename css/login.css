@@ -131,7 +131,7 @@ header::after{
 
 .rif{
   width: 100%;
-  position: absolute;
+  position: relative;
 }
 
 .rif label{
@@ -141,7 +141,7 @@ header::after{
 }
 
 .rif i{
-  position: relative;
+  position: absolute;
   left: 5%;
   top:12px;
   padding: 13px 11px;
