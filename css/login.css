@@ -83,13 +83,67 @@ header::after{
 }
 
 .box{
+  background: black;
   width: 30%;
   float: left;
+}
+
+.box img{
+  width: 70%;
+  margin-left: 15%;
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
 
 .inbox{
   width: 70%;
   float: right;
+}
+
+.inbox form{
+  width: 90%;
+  margin-left: 5%;
+}
+
+.dif{
+  width: 100%;
+}
+
+.dif label{
+  width: 70%;
+  margin-left: 15%;
+  color: white;
+}
+
+.dif input{
+  width: 70%;
+  margin-left: 15%;
+  margin-top: 70px;
+  margin-bottom: 100px;
+  background: black;
+  border-bottom: 2px solid #1e1e1e;
+  border-radius: 5px;
+  color: white;
+}
+
+.dif input:hover{
+  border-bottom: 2px solid blue;
+}
+
+.dif button{
+  width: 70%;
+  margin-left: 15%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  color: white;
+  background: blue;
+  border: 2px solid blue;
+  border-radius: 8px;
+}
+
+.dif button:hover{
+  background: linear-gradient(blue 80%,darkblue 20%);
+  box-shadow: 0 0 0 20 blue;
 }
 
 
