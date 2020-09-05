@@ -128,9 +128,8 @@ a:active,a:hover{
     background: none;
   }
 
-  #check:checked ~ .out ul{
+  #check:checked ~  ul{
     left: 0;
-
   }
 
 
