@@ -84,6 +84,25 @@ header::after{
   display: none;
 }
 
+@media (max-width:853px) {
+  .checkbtn{
+    display: block;
+  }
+  ul{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #2c3e50;
+    top: 80px;
+    left: 0;
+    text-align: center;
+  }
+
+  nav ul li{
+    display: block;
+  }
+}
+
 .contanier{
   width: 100%;
   background-size: cover;
