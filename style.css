@@ -62,87 +62,14 @@ header::after{
 }
 
 .out nav ul li a{
-  position: relative;
   text-decoration: none;
   color: white;
   font-size: 20px;
-  text-transform: uppercase;
-}
-
-.out nav ul li a:before{
-  content: '';
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  transform: scaleX(0);
-  transform-origin: right;
-}
-
-.out nav ul li a:hover:before{
-  transform: scaleX(1);
-  transform-origin: left;
 }
 
 .out nav ul li a:hover{
   color: skyblue;
 }
-
-.checkbtn label #btn,
-.checkbtn label #cancel {
-  color: white;
-  font-size: 40px;
-  float: right;
-  line-height: 80px;
-  margin-right: 40px;
-  cursor: pointer;
-  display: none;
-}
-
-#check{
-  display: none;
-}
-
-@media (max-widht:943px) {
-  .in img {
-    left: 8%;
-  }
-
-  @media (max-width:834px) {
-    .checkbtn label #btn{
-      display: block;
-    }
-
-     nav ul{
-      position: fixed;
-      width: 100%;
-      height: 100vh;
-      background: #34495e;
-      top: 80px;
-      left: -100%;
-      text-align: center;
-      transition: all .5s;
-    }
-
-    nav ul li{
-      display: block;
-      margin: 50px 0;
-      line-height: 30px;
-    }
-
-    #check:checked ~ nav ul{
-      left: 0;
-    }
-
-    #check:checked ~ label #btn{
-      display: none;
-    }
-
-    #check:checked ~  label #cancel{
-      display: block;
-    }
-
-}
-
 
 
 .contanier{
