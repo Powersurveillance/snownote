@@ -71,6 +71,19 @@ header::after{
   color: skyblue;
 }
 
+.checkbtn{
+  font-size: 30px;
+  color: white;
+  float: right;
+  line-height: 80px;
+  cursor: pointer;
+  display: none;
+}
+
+#check{
+  display: none;
+}
+
 .contanier{
   width: 100%;
   background-size: cover;
