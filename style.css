@@ -38,6 +38,9 @@ header::after{
     width: 70%;
     height: 150px;
     float: right;
+    max-height: 0;
+    clear: both;
+    transition: max-height .2s ease-out;
 }
 
 .out nav{
@@ -128,8 +131,8 @@ a:active,a:hover{
     background: none;
   }
 
-  #check:checked ~ .out ul{
-    left: 2%;
+  #check:checked ~ .out{
+    left: 0;
   }
 
   .box{
