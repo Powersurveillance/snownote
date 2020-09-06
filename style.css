@@ -130,7 +130,7 @@ a:active,a:hover{
   }
 
   #check:checked ~ .checkbtn {
-    left: 0;
+    left: 247px;
   }
 
   .box{
