@@ -124,8 +124,8 @@ a:active,a:hover{
     font-size: 20px;
   }
 
-  a:hover,a:active{
-    transition: .5s;
+  .out:hover,.out:active{
+    transition: all 0.3s ease;
     background: none;
   }
 
