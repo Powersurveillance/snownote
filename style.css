@@ -136,6 +136,10 @@ a:active,a:hover{
     width: 100%;
   }
 
+  .box img{
+    width: 100%;
+  }
+
   .inbox{
     width: 100%;
   }
