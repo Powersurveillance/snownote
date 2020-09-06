@@ -132,6 +132,14 @@ a:active,a:hover{
     left: 0;
   }
 
+  .box{
+    width: 100%;
+  }
+
+  .inbox{
+    width: 100%;
+  }
+
 
 }
 
