@@ -38,9 +38,6 @@ header::after{
     width: 70%;
     height: 150px;
     float: right;
-    max-height: 0;
-    clear: both;
-    transition: max-height .2s ease-out;
 }
 
 .out nav{
