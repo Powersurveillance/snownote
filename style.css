@@ -130,7 +130,7 @@ a:active,a:hover{
   }
 
   #check:checked ~ .out nav ul {
-    left: 0;
+    right: 0;
   }
 
   .contanier{
