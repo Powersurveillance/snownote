@@ -125,7 +125,7 @@ a:active,a:hover{
   }
 
   .out nav ul li a:hover,.out nav ul li a:active{
-    background: none;
+    background: black;
   }
 
   #check:checked ~  ul{
