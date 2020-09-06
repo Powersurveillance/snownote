@@ -103,13 +103,9 @@ a:active,a:hover{
     height: 100vh;
     background: none;
     top: 80px;
-    left: 0;
+    left: -100%;
     text-align: center;
-    transition: all .5s;
-  }
-
-  .out nav ul:hover{
-
+    transition: all .5s ease;
   }
 
   .out nav ul li{
@@ -127,8 +123,8 @@ a:active,a:hover{
     background: none;
   }
 
-  #check:checked ~ .checkbtn {
-    left: 247px;
+  #check:checked ~ .out nav ul {
+    left: 0;
   }
 
   .box{
