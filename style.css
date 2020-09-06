@@ -69,7 +69,7 @@ header::after{
 }
 
 a:active,a:hover{
-  background:
+  background: black;
   transition: .5s;
 }
 
@@ -122,8 +122,6 @@ a:active,a:hover{
 
   .out nav ul li a{
     font-size: 20px;
-    padding:7px 13px;
-    text-transform: uppercase;
   }
 
   a:hover,a:active{
