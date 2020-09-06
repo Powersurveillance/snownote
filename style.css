@@ -38,7 +38,6 @@ header::after{
     width: 70%;
     height: 150px;
     float: right;
-    position: relative;
 }
 
 .out nav{
@@ -79,7 +78,6 @@ a:active,a:hover{
 }
 
 .checkbtn{
-  position: absolute;
   font-size: 40px;
   color: white;
   float: right;
@@ -131,7 +129,7 @@ a:active,a:hover{
     background: none;
   }
 
-  #check:checked ~ .out {
+  #check:checked ~ .checkbtn {
     left: 0;
   }
 
