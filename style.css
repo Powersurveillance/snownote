@@ -109,7 +109,9 @@ a:active,a:hover{
   }
 
   .out nav ul:hover{
-
+    left: 0;
+    text-align: center;
+    transition: all .5s ease;
   }
 
   .out nav ul li{
