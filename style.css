@@ -103,7 +103,7 @@ a:active,a:hover{
     height: 100vh;
     background: none;
     top: 80px;
-    left: -100%;
+    right: -100%;
     text-align: center;
     transition: all .5s ease;
   }
@@ -133,8 +133,14 @@ a:active,a:hover{
     left: 0;
   }
 
+  .contanier{
+    width: 100%;
+    float: inherit;
+  }
+
   .box{
     width: 100%;
+    float: none;
   }
 
   .box img{
@@ -143,6 +149,7 @@ a:active,a:hover{
 
   .inbox{
     width: 100%;
+    float: none;
   }
 
 
