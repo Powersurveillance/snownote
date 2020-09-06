@@ -124,7 +124,7 @@ a:active,a:hover{
     font-size: 20px;
   }
 
-  a:hover,a:active{
+  .out nav ul li a:hover,.out nav ul li a:active{
     background: none;
   }
 
