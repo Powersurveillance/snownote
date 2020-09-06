@@ -124,17 +124,13 @@ a:active,a:hover{
     font-size: 20px;
   }
 
-  .active a:hover{
-    background: black;
-    color: white;
-  }
-
-  .out nav ul li a:hover,{
+  a:hover,a:active{
     background: none;
   }
 
   #check:checked ~ .out ul{
-    left: 5%;
+    left: 2%;
+    max-height: 300px;
   }
 
   .box{
