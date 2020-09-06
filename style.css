@@ -1,6 +1,7 @@
 *{
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body{
@@ -38,6 +39,7 @@ header::after{
     width: 70%;
     height: 150px;
     float: right;
+    position: relative;
 }
 
 .out nav{
@@ -125,7 +127,7 @@ a:active,a:hover{
   }
 
   .out:hover,.out:active{
-    transition: all 0.3s ease;
+    transition: .5s;
     background: none;
   }
 
