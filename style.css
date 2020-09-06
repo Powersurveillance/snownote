@@ -92,13 +92,7 @@ a:active,a:hover{
   display: none;
 }
 
-@media (max-width:952px) {
-  .in img{
-    padding-left: 50px;
-  }
-}
-
-@media (max-width:858px) {
+@media (max-width:928px) {
   .checkbtn{
     display: block;
   }
