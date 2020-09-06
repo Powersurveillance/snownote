@@ -124,8 +124,13 @@ a:active,a:hover{
     font-size: 20px;
   }
 
-  .out nav ul li a:hover,.out nav ul li a:active{
+  .active a:hover{
     background: black;
+    color: white;
+  }
+
+  .out nav ul li a:hover,{
+    background: none;
   }
 
   #check:checked ~  ul{
