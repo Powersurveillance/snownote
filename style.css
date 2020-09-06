@@ -39,7 +39,6 @@ header::after{
     width: 70%;
     height: 150px;
     float: right;
-    position: relative;
 }
 
 .out nav{
@@ -126,7 +125,7 @@ a:active,a:hover{
     font-size: 20px;
   }
 
-  .out:hover,.out:active{
+  .out a:hover,.out a:active{
     transition: .5s;
     background: none;
   }
