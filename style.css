@@ -130,7 +130,6 @@ a:active,a:hover{
 
   #check:checked ~ .out ul{
     left: 2%;
-    max-height: 300px;
   }
 
   .box{
