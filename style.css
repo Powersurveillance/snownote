@@ -122,13 +122,16 @@ a:active,a:hover{
 
   .out nav ul li a{
     font-size: 20px;
+    padding:7px 13px;
+    text-transform: uppercase;
   }
 
   a:hover,a:active{
+    transition: .5s;
     background: none;
   }
 
-  #check:checked ~ .out nav ul{
+  #check:checked ~ .out {
     left: 0;
   }
 
