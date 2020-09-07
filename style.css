@@ -15,6 +15,13 @@ nav{
   width: 100%;
 }
 
+label img{
+  width: 60%;
+  margin-left: 20%;
+  height: 70px;
+  margin-top: 5px;
+}
+
 label.logo{
   height: 70px;
   width: 100px;
