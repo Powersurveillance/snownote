@@ -75,7 +75,7 @@ a.active,a.hover{
   display: none
 }
 
-@media (max-width:952px) {
+@media (max-width:1000px) {
   label.logo{
     font-size: 30px;
     padding-left: 50px;
