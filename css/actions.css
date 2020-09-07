@@ -121,6 +121,12 @@ a.active,a.hover{
     left: 0;
   }
 }
+
+section{
+  background: url(/img/cover.jpg);
+  background-size: cover;
+}
+
 .contanier{
   width: 100%;
   background-size: cover;
@@ -186,6 +192,7 @@ a.active,a.hover{
 
 .stock{
   width: 90%;
+  background: #1e1e1e;
   height: 230px;
   margin-left: 5%;
   margin-top: 15px;
