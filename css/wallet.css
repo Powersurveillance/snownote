@@ -123,6 +123,11 @@ a.active,a.hover{
 
 
 }
+
+section{
+  background: url(/img/cover.jpg)
+}
+
 .contanier{
   width: 100%;
   margin-top: 100px;
