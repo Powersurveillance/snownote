@@ -126,29 +126,6 @@ a.active,a.hover{
 }
 
 
-  .contanier{
-    width: 100%;
-    float: inherit;
-  }
-
-  .box{
-    width: 100%;
-    float: none;
-  }
-
-  .box img{
-    width: 100%;
-  }
-
-  .inbox{
-    width: 100%;
-    float: none;
-  }
-
-
-}
-
-
 .contanier{
   width: 100%;
   background-size: cover;
