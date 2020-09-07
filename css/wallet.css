@@ -120,8 +120,6 @@ a.active,a.hover{
   #check:checked ~ ul{
     left: 0;
   }
-
-
 }
 
 section{
