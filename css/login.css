@@ -71,6 +71,12 @@ header::after{
   color: skyblue;
 }
 
+section{
+  width: 100%;
+  background: url(/img/cover.jpg);
+  background-size: cover;
+}
+
 .contanier{
   width: 100%;
   margin-top: 100px;
