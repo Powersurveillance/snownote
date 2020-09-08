@@ -151,24 +151,24 @@ section{
 }
 
 .work{
-  background:#1e1e1e ;
+  background:yellow;
   width: 20%;
   margin-left: 20%;
   margin-top: 100px;
   margin-bottom: 100px;
-  border: 4px solid blue;
+  border: 4px solid orange;
   border-radius: 5px;
   text-align: center;
   float: left;
 }
 
 .work:hover{
-  border-top: 4px solid blue;
-  border-bottom: 4px solid darkblue;
-  border-left: 4px solid blue;
-  border-right: 4px solid darkblue;
-  box-shadow: 0 0 30px blue;
-  background: darkgrey;
+  border-top: 4px solid yellow;
+  border-bottom: 4px solid orange;
+  border-left: 4px solid yellow;
+  border-right: 4px solid orange;
+  box-shadow: 0 0 30px yellow;
+  background: linear-gradient(yellow 20%,orange 80%);
 }
 
 .work img{
