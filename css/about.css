@@ -123,6 +123,11 @@ a.active,a.hover{
   }
 }
 
+section{
+  background: url(/img/networking.jpg);
+  background-size: cover;
+}
+
 .contanier{
   width: 100%;
   background-size: cover;
