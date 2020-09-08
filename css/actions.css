@@ -157,6 +157,8 @@ section{
   margin-top: 100px;
   margin-bottom: 100px;
   border: 4px solid orange;
+  border-right: 4px solid yellow;
+  border-bottom: 4px solid yellow;
   border-radius: 5px;
   text-align: center;
   float: left;
