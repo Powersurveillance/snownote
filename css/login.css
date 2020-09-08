@@ -142,7 +142,7 @@ section{
 .box{
   background: black;
   width: 30%;
-  float: left;
+  float: right;
 }
 
 .box img{
@@ -179,7 +179,7 @@ section{
 
 .inbox{
   width: 70%;
-  float: right;
+  float: left;
 }
 
 .inbox form{
