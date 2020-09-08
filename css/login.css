@@ -218,6 +218,7 @@ section{
 
 .rif i{
   position: absolute;
+  border-right: 1px solid grey;
   left: 15%;
   top:55px;
   padding: 13px 11px;
