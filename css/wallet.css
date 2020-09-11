@@ -132,6 +132,10 @@ section{
   margin-top: 100px;
   margin-bottom: 100px;
   background-size: cover;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
 }
 
 .contanier::after{
