@@ -87,7 +87,7 @@ a.active,a.hover{
   }
 }
 
-@media (max-width:856px) {
+@media (max-width:1000px) {
   .checkbtn{
     display: block;
   }
