@@ -121,15 +121,12 @@ a.active,a.hover{
   #check:checked ~ ul{
     left: 0;
   }
-
-.contanier{
-  position:relative;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%,-50%);
-  width: 100%;
 }
 
+@media screen and (max-width: 800px) {
+  .contanier, .box, .inbox{
+    width: 100%;
+  }
 }
 
 section{
