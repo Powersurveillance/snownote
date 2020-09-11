@@ -130,7 +130,7 @@ a.active,a.hover{
   }
   .inbox{
     width: 100%;
-    float: right;
+    float: left;
   }
 }
 
