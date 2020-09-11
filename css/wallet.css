@@ -124,7 +124,10 @@ a.active,a.hover{
 }
 
 @media screen and (max-width: 800px) {
-  .contanier, .box, .inbox{
+  .box{
+    width: 100%;
+  }
+  .inbox{
     width: 100%;
   }
 }
