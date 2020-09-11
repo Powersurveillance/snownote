@@ -126,9 +126,11 @@ a.active,a.hover{
 @media screen and (max-width: 800px) {
   .box{
     width: 100%;
+    float: left;
   }
   .inbox{
     width: 100%;
+    float: right;
   }
 }
 
