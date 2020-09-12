@@ -146,47 +146,8 @@ section{
   content: '';
 }
 
-.box{
-  background: black;
-  width: 30%;
-  float: right;
-}
-
-.box img{
-  width: 70%;
-  margin-left: 15%;
-  margin-top: 100px;
-  margin-bottom: 100px;
-}
-
-.box ul{
-  margin-top: 50px;
-  margin-bottom: 50px;
-}
-
-.box ul li{
-  list-style: none;
-  text-align: center;
-  width: 60%;
-  margin-left: 20%;
-  background: blue;
-  border-radius: 8px;
-}
-
-.box ul li:hover{
-  background: linear-gradient(blue 20%,darkblue 80%);
-  box-shadow: 0 0 20px blue;
-}
-
-.box ul li a{
-  color: white;
-  font-size: 30px;
-  text-decoration: none;
-}
-
 .inbox{
-  width: 70%;
-  float: left;
+  width: 100%;
 }
 
 .inbox form{
