@@ -127,8 +127,18 @@ a.active,a.hover{
   .contanier{
     width: 100%;
     display: flex;
-
   }
+
+  .box{
+    width: 100%;
+    float: none;
+  }
+
+  .inbox{
+    width: 100%;
+    float: none;
+  }
+
 }
 
 section{
