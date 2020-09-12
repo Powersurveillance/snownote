@@ -131,7 +131,8 @@ a.active,a.hover{
 
   .box{
     width: 100%;
-    float: none;
+    display: inline;
+    
   }
 
   .inbox{
