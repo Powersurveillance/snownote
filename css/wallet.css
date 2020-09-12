@@ -132,12 +132,16 @@ a.active,a.hover{
   .box{
     width: 100%;
     display: inline;
-    
+
   }
 
   .inbox{
     width: 100%;
     float: none;
+  }
+
+  .net{
+    flex-direction: column;
   }
 
 }
