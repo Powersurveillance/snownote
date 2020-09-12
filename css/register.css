@@ -170,6 +170,14 @@ section{
   position: relative;
 }
 
+.rif a{
+  width: 70%;
+  margin-left: 15%;
+  color: white;
+  text-decoration: none;
+  
+}
+
 .rif label{
   width: 70%;
   margin-left: 15%;
