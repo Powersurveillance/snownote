@@ -122,7 +122,8 @@ a.active,a.hover{
   }
 
   footer{
-    display: flex;
+    display: block;
+    width: 100%;
   }
 }
 
