@@ -127,7 +127,6 @@ a.active,a.hover{
   .contanier{
     width: 100%;
     display: flex;
-    justify-content: flex-start;
   }
 
   .box{
