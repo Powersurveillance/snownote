@@ -132,8 +132,8 @@ a.active,a.hover{
 
   .box{
     width: 800px;
-    display: flex;
-
+    display: inline-block;
+    justify-content: space-around;
   }
 
   .inbox{
@@ -146,17 +146,6 @@ a.active,a.hover{
     display: block;
   }
 
-  .nut{
-    width: 100%;
-    margin-top: 10px;
-    margin-bottom: 10px;
-  }
-
-  footer{
-    width: 100%;
-    display: flex;
-    justify-content: flex-start;
-  }
 
 }
 
