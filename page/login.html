@@ -1,53 +1,47 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <script src="https://kit.fontawesome.com/ee68d8abc9.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="/css/login.css">
-    <link rel="icon" type="image/png" href="/img/icon.png">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Snownote Organization | Login</title>
-  </head>
-  <body>
-    <nav>
-      <input type="checkbox" id="check">
-      <label for="check" class="checkbtn">
-        <i class="fas fa-bars"></i>
-      </label>
-      <label class="logo"><img src="/img/logo.png" alt=""></label>
-      <ul>
-        <li><a href="/index.html">Home</a></li>
-        <li><a href="/page/about.html">About</a></li>
-        <li><a href="/page/actions.html">Actions</a></li>
-        <li><a href="/page/support.html">Support</a></li>
-        <li><a href="/page/wallet.html">Wallet</a></li>
-        <li><a class="active" href="/page/login.html">Login</a></li>
-      </ul>
-    </nav>
-    <section>
-      <div class="contanier">
-        <div class="inbox">
-          <form class="data" action="index.html" method="post">
-            <h2>Snownotecoin Wallet</h2>
-            <div class="rif">
-              <label>Username</label>
-              <i class="fas fa-user-tie"></i>
-              <input type="text" name="user" placeholder="Johnsmith01" required>
-            </div>
-            <div class="rif">
-              <label>Password</label>
-              <i class="fas fa-lock"></i>
-              <input type="password" name="pwd" placeholder="*************" required>
-            </div>
-            <div class="rif">
-              <button type="submit" name="button">Login</button>
-            </div>
-            <div class="rif">
-              <a href="/page/register">Register</a>
-            </div>
-          </form>
-        </div>
-      </div>
-    </section>
+ <html lang="en" dir="ltr">
+   <head>
+     <script src="https://kit.fontawesome.com/ee68d8abc9.js" crossorigin="anonymous"></script>
+     <link rel="icon" href="/img/icon.png">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <meta charset="utf-8">
+     <link rel="stylesheet" href="style.css">
+     <title>Snownote Organization</title>
+   </head>
+   <body>
+     <nav>
+       <input type="checkbox" id="check">
+       <label for="check" class="checkbtn">
+         <i class="fas fa-bars"></i>
+       </label>
+       <label class="logo"><img src="/img/icon.png" alt=""></label>
+       <ul>
+         <li><a class="active" href="/index.html">Home</a></li>
+         <li><a href="/page/about.html">About</a></li>
+         <li><a href="/page/actions.html">Actions</a></li>
+         <li><a href="/page/support.html">Support</a></li>
+         <li><a href="/page/wallet.html">Wallet</a></li>
+       </ul>
+     </nav>
+     <div class="contanier">
+       <form action="index.html" method="post">
+         <div class="rif">
+           <label for="Username">Username</label>
+           <p>
+             <input type="text" name="username" placeholder="Username" checked>
+           </p>
+         </div>
+         <div class="rif">
+           <label for="Password">Password</label>
+           <p>
+             <input type="password" name="password" placeholder="Password">
+           </p>
+         </div>
+         <div class="rif">
+           <button type="submit" name="button">Login</button>
+         </div>
+       </form>
+     </div>
     <footer id="footer">
       <div class="rit">
         <ul>
