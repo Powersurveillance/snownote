@@ -125,10 +125,14 @@ a.active,a.hover{
 
 .contanier{
   width: 100%;
+  background: #1e1e1e;
 }
 
 .contanier form{
   width: 100%;
+  background: black;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .rif{
@@ -149,8 +153,14 @@ a.active,a.hover{
   height: 30px;
   margin-top: 10px;
   margin-bottom: 10px;
-  background: linear-gradient(blue 20%,darkblue 80%);
+  background: white;
   border: none;
+  color: black;
+}
+
+.rif p input{
+  border-bottom: 2px solid blue;
+  border-radius: 5px;
 }
 
 .rif button{
