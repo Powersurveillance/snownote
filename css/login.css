@@ -152,6 +152,17 @@ a.active,a.hover{
   margin-left: 2%;
 }
 
+.rif label a{
+  color: white;
+  text-decoration: none;
+}
+
+.rif label a:hover{
+  color: blue;
+  margin-left: 3%;
+  transition: .5s;
+}
+
 .rif p input{
   width: 95%;
   margin-left: 2%;
