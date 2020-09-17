@@ -144,6 +144,12 @@ a.active,a.hover{
   margin-top: 100px;
 }
 
+.rif img{
+  width: 20%;
+  margin-left: 40%;
+  height: 100px;
+}
+
 .rif label{
   color: white;
   margin-top: 10px;
