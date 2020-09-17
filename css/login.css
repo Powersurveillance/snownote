@@ -175,9 +175,9 @@ a.active,a.hover{
   height: 30px;
   margin-top: 10px;
   margin-bottom: 10px;
-  background: white;
+  background: #1e1e1e;
   border: none;
-  color: black;
+  color: white;
 }
 
 .rif p input:hover{
