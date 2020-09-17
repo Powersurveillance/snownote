@@ -146,6 +146,8 @@ a.active,a.hover{
   color: white;
   margin-top: 10px;
   margin-bottom: 10px;
+  width: 70%;
+  margin-left: 15%;
 }
 
 .rif p input{
