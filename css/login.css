@@ -183,6 +183,7 @@ a.active,a.hover{
 .rif p input:hover{
   border-bottom: 2px solid blue;
   border-radius: 5px;
+  box-shadow: 0 0 20px blue;
 }
 
 .rif button{
@@ -192,6 +193,11 @@ a.active,a.hover{
   margin-left: 10%;
   border: none;
   height: 40px;
+}
+
+.rif button:hover{
+  border: 2px solid blue;
+  box-shadow: 0 0 20px blue;
 }
 
 
