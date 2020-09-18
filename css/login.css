@@ -178,6 +178,7 @@ a.active,a.hover{
   background: #1e1e1e;
   border: none;
   color: skyblue;
+  padding-left: 30px;
 }
 
 .rif p input:hover{
