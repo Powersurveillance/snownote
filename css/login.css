@@ -166,8 +166,8 @@ a.active,a.hover{
 
 .rif label a:hover{
   color: blue;
-  margin-left: 3%;
-  transition: .5s;
+  margin-left: 1%;
+  transition: .10s;
 }
 
 .rif p input{
