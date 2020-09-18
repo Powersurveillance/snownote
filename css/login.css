@@ -158,16 +158,6 @@ a.active,a.hover{
   margin-left: 2%;
 }
 
-.rif a{
-  color: white;
-  text-decoration: none;
-}
-
-.rif a:hover{
-  color: blue;
-  margin-left: 2%;
-  transition: .3s;
-}
 
 .rif label a{
   color: white;
