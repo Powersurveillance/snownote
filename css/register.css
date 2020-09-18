@@ -124,109 +124,81 @@ a.active,a.hover{
 
 }
 
-  @media query {
-
-  }
-
-
-section{
-  width: 100%;
-  background: url(/img/cover.jpg);
-  background-size: cover;
-}
-
 .contanier{
   width: 100%;
-  background-size: cover;
 }
 
-.contanier::after{
-  clear: both;
-  display: table;
-  content: '';
-}
-
-.inbox{
-  width: 100%;
-}
-
-.inbox form{
-  width: 90%;
-  margin-left: 5%;
-}
-
-.inbox form h2{
-  width: 100%;
-  color: white;
-  text-align: center;
-  font-size: 25px;
-  margin-top: 10px;
-  margin-bottom: 80px;
-  border-bottom: 3px solid blue;
+.contanier form{
+  width: 70%;
+  margin-left: 15%;
+  background: black;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .rif{
-  width: 100%;
-  position: relative;
+  width: 90%;
+  margin-left: 5%;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-top: 100px;
 }
 
-.rif a{
-  width: 70%;
-  margin-left: 15%;
-  color: white;
-  text-decoration: none;
-  
+.rif img{
+  width: 20%;
+  margin-left: 40%;
+  height: 100px;
 }
 
 .rif label{
-  width: 70%;
-  margin-left: 15%;
-  font-size: 30px;
+  color: white;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 95%;
+  margin-left: 2%;
+}
+
+.rif label a{
+  color: white;
+  text-decoration: none;
+}
+
+.rif label a:hover{
+  color: blue;
+  margin-left: 3%;
+  transition: .5s;
+}
+
+.rif p input{
+  width: 95%;
+  margin-left: 2%;
+  height: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background: #1e1e1e;
+  border: none;
   color: white;
 }
 
-.rif i{
-  position: absolute;
-  left: 15%;
-  top:55px;
-  padding: 13px 11px;
-  color: white;
-}
-
-.rif input{
-  width: 70%;
-  padding-left: 30px;
-  height: 40px;
-  font-size: 25px;
-  margin-left: 15%;
-  margin-top: 20px;
-  margin-bottom: 80px;
-  border: 4px solid #1e1e1e;
-  background: black;
-  border-bottom: 4px solid #1e1e1e;
-  border-radius: 7px;
-  color: white;
-}
-
-.rif input:hover{
-  border-bottom: 4px solid blue;
+.rif p input:hover{
+  border-bottom: 2px solid blue;
+  border-radius: 5px;
+  box-shadow: 0 0 20px blue;
 }
 
 .rif button{
-  width: 70%;
-  font-size: 30px;
-  margin-left: 15%;
-  margin-top: 20px;
-  margin-bottom: 50px;
   color: white;
   background: blue;
-  border: 2px solid blue;
-  border-radius: 8px;
+  width: 80%;
+  margin-left: 10%;
+  border: none;
+  height: 40px;
 }
 
 .rif button:hover{
-  background: linear-gradient(blue 20%,darkblue 80%);
+  border: 2px solid blue;
   box-shadow: 0 0 20px blue;
+  border-radius: 5px;
 }
 
 footer{
