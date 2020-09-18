@@ -23,51 +23,37 @@
         <li><a class="active" href="/page/login.html">Login</a></li>
       </ul>
     </nav>
-    <section>
-      <div class="contanier">
-        <div class="inbox">
-          <form class="data" action="index.html" method="post">
-            <h2>Snownotecoin Wallet</h2>
-            <div class="rif">
-                <label>Your Full Name</label>
-                <i class="far fa-address-card"></i>
-                <input type="text" name="fname" placeholder="Full Name">
-              </div>
-            <div class="rif">
-              <label>Username</label>
-              <i class="fas fa-user-tie"></i>
-              <input type="text" name="user" placeholder="Johnsmith01" required>
-            </div>
-            <div class="rif">
-              <label>Your Email</label>
-              <i class="far fa-envelope"></i>
-              <input type="email" name="mail" placeholder="Email@protonmail.com">
-            </div>
-            <div class="rif">
-              <label>Phone Number</label>
-              <i class="fas fa-phone-square-alt"></i>
-              <input type="tel" name="phone" placeholder="+1-000-000-0000">
-            </div>
-            <div class="rif">
-              <label>Password</label>
-              <i class="fas fa-lock"></i>
-              <input type="password" name="pwd" placeholder="*************" required>
-            </div>
-            <div class="rif">
-              <label>Reapet Password</label>
-              <i class="fas fa-lock"></i>
-              <input type="password" name="pwds" placeholder="*************">
-            </div>
-            <div class="rif">
-              <button type="submit" name="button">Register</button>
-            </div>
-            <div class="rif">
-              <a href="/page/login.html">Back</a>
-            </div>
-          </form>
+    <div class="contanier">
+      <form action="index.html" method="post">
+        <div class="rif">
+          <img src="/img/logo.png" alt="logo">
         </div>
-      </div>
-    </section>
+        <div class="rif">
+          <label for="Username">Username</label>
+          <p>
+            <input type="text" name="username" placeholder="Username" required>
+          </p>
+        </div>
+        <div class="rif">
+          <label for="email">Email</label>
+          <p>
+            <input type="email" name="mail" placeholder="Email" required>
+          </p>
+        </div>
+        <div class="rif">
+          <label for="Password">Password</label>
+          <p>
+            <input type="password" name="password" placeholder="Password">
+          </p>
+        </div>
+        <div class="rif">
+          <button type="submit" name="button">Login</button>
+        </div>
+        <div class="rif">
+          <label><a href="#">Create Account >>></a></label>
+        </div>
+      </form>
+    </div>
     <footer id="footer">
       <div class="rit">
         <ul>
