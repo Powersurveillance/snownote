@@ -146,6 +146,8 @@ a.active,a.hover{
 }
 
 .box ul li{
+  list-style: upper-roman;
+  position: fixed;
   margin-top: 10px;
   margin-bottom: 10px;
   color: lightgrey;
@@ -153,7 +155,6 @@ a.active,a.hover{
 
 .box h1{
   text-align: center;
-  list-style: upper-roman;
   margin-top: 10px;
   margin-bottom: 10px;
   border-bottom: 2px solid lightblue;
