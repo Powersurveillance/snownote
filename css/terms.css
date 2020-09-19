@@ -153,15 +153,6 @@ a.active,a.hover{
   margin-bottom: 10px;
 }
 
-.box ul{
-  width: 95%;
-  margin-left: 2%;
-}
-
-.box li{
-  list-style: upper-roman;
-  color: grey;
-}
 
 .box p{
   margin-top: 10px;
