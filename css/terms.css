@@ -158,7 +158,7 @@ a.active,a.hover{
   margin-left: 2%;
 }
 
-.box ul li{
+.box li{
   list-style: upper-roman;
   color: grey;
 }
