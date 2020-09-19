@@ -175,6 +175,7 @@ section{
   border-bottom: 4px solid blue;
   border-left: 4px solid darkblue;
   border-right: 4px solid blue;
+  background:linear-gradient(blue 20%,darkblue 80%);
   box-shadow: 0 0 30px darkblue;
 }
 
