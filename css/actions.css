@@ -164,7 +164,7 @@ section{
   border: 4px solid blue;
   border-right: 4px solid darkblue;
   border-bottom: 4px solid darkblue;
-  background: linear-gradient(blue 20%,darkblue 80%);
+  background: #1e1e1e;
   border-radius: 5px;
   text-align: center;
   float: left;
