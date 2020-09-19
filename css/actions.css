@@ -164,7 +164,7 @@ section{
   border: 4px solid blue;
   border-right: 4px solid darkblue;
   border-bottom: 4px solid darkblue;
-  background: #1e1e1e;
+  background: none;
   border-radius: 5px;
   text-align: center;
   float: left;
