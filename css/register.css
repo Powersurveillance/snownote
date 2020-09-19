@@ -186,7 +186,7 @@ a.active,a.hover{
 
 .rif label a:hover{
   color: blue;
-  margin-left: 3%;
+  margin-left: 1%;
   transition: .5s;
 }
 
