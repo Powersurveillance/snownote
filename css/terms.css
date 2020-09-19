@@ -147,20 +147,23 @@ a.active,a.hover{
   border-bottom: 2px solid lightblue;
 }
 
-.box p{
+.box h2{
   margin-left: 2%;
   text-decoration: underline;
   margin-bottom: 10px;
 }
 
-.box li{
+.box ul{
+  width: 95%;
+  margin-left: 2%;
+}
+
+.box ul li{
   list-style: upper-roman;
   color: grey;
 }
 
-.box small{
-  width: 100%;
-  font-size: 15px;
+.box p{
   margin-top: 10px;
   margin-bottom: 10px;
 }
