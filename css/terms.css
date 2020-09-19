@@ -123,3 +123,15 @@ a.active,a.hover{
     left: 0;
   }
 }
+
+.contanier{
+  width: 100%;
+}
+
+.box{
+  width: 80%;
+  border-style: dashed;
+  border: 2px solid blue;
+  background: black;
+  color: white;
+}
