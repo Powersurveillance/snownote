@@ -173,6 +173,7 @@ a.active,a.hover{
 
 .box a{
   display: block;
+  width: 40%;
   text-decoration: none;
   color: white;
   margin-left: 2%;
@@ -181,7 +182,7 @@ a.active,a.hover{
 }
 
 .box a:hover{
-  margin-left: 5%;
+  margin-left: 4%;
   color: blue;
   transition: .5s;
 }
