@@ -142,10 +142,10 @@ a.active,a.hover{
 
 .box ul{
   margin-left: 2%;
+  display: block;
 }
 
 .box ul li{
-  position: fixed;
   margin-top: 10px;
   margin-bottom: 10px;
   color: lightgrey;
@@ -153,6 +153,7 @@ a.active,a.hover{
 
 .box h1{
   text-align: center;
+  list-style: upper-roman;
   margin-top: 10px;
   margin-bottom: 10px;
   border-bottom: 2px solid lightblue;
