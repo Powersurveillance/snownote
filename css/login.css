@@ -137,11 +137,20 @@ a.active,a.hover{
 }
 
 .rif{
+  position: relative;
   width: 90%;
   margin-left: 5%;
   margin-top: 40px;
   margin-bottom: 40px;
   margin-top: 100px;
+}
+
+.rif i{
+  position: absolute;
+  left: 5%;
+  top:12px;
+  padding: 13px 11px;
+  color: white;
 }
 
 .rif img{
