@@ -147,7 +147,6 @@ a.active,a.hover{
 
 .box ul li{
   list-style: upper-roman;
-  position: fixed;
   margin-top: 10px;
   margin-bottom: 10px;
   color: lightgrey;
