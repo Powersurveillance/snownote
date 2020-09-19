@@ -138,6 +138,7 @@ a.active,a.hover{
   border-left: 5px solid blue;
   border-top: 2px solid blue;
   border-bottom: 2px solid blue;
+  border-right: 2px solid black;
   box-shadow: 0 0 30px darkblue;
   background: black;
   color: white;
