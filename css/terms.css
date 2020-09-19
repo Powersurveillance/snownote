@@ -140,18 +140,6 @@ a.active,a.hover{
   color: white;
 }
 
-.box ul{
-  margin-left: 2%;
-  display: block;
-}
-
-.box ul li{
-  list-style: upper-roman;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  color: lightgrey;
-}
-
 .box h1{
   text-align: center;
   margin-top: 10px;
