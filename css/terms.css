@@ -171,6 +171,21 @@ a.active,a.hover{
   margin-bottom: 10px;
 }
 
+.box a{
+  display: block;
+  text-decoration: none;
+  color: white;
+  margin-left: 2%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.box a:hover{
+  margin-left: 5%;
+  color: blue;
+  transition: .5s;
+}
+
 footer{
   width: 100%;
   background: black;
