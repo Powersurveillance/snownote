@@ -183,7 +183,7 @@ section{
 
 .box{
   width: 40%;
-  float: right;
+  float: left;
 }
 
 .box img{
@@ -196,7 +196,7 @@ section{
 
 .inbox{
   width: 60%;
-  float: left;
+  float: right;
 }
 
 .inbox h2{
