@@ -182,7 +182,7 @@ a.active,a.hover{
 }
 
 .box a:hover{
-  margin-left: 4%;
+  margin-left: 1%;
   color: blue;
   transition: .5s;
 }
