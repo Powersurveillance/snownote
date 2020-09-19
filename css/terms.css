@@ -154,7 +154,13 @@ a.active,a.hover{
 }
 
 .box li{
-  list-style: lower-roman;
+  list-style: upper-roman;
   color: grey;
-  
+}
+
+.box small{
+  width: 100%;
+  font-size: 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
