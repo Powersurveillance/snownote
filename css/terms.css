@@ -169,6 +169,7 @@ a.active,a.hover{
 .box p{
   margin-top: 10px;
   margin-bottom: 10px;
+  margin-left: 1%;
 }
 
 .box a{
