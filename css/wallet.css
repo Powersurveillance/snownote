@@ -149,7 +149,7 @@ a.active,a.hover{
 }
 
 section{
-  background: url(/img/cover.jpg)
+  background: url(/img/cover.jpg);
 }
 
 .contanier{
