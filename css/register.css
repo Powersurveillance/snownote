@@ -6,7 +6,7 @@
 body{
   margin: 0px;
   padding: 0px;
-  background: #1e1e1e;
+  background: url(/img/cover.jpg);
   box-sizing: border-box;
 }
 
