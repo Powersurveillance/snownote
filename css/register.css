@@ -122,6 +122,10 @@ a.active,a.hover{
     left: 0;
   }
 
+  footer{
+    display: flex;
+  }
+
 }
 
 .contanier{
