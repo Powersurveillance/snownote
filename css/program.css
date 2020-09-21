@@ -161,6 +161,7 @@ a.active,a.hover{
 
 .box{
   width: 35%;
+  background: black;
   float: left;
 }
 
