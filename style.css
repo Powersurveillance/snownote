@@ -261,7 +261,7 @@ footer::after{
   margin-top: 20px;
   margin-bottom: 20px;
   display: block;
-  text-align: center;
+  text-align: left;
 }
 
 .to li a{
@@ -286,7 +286,7 @@ footer::after{
   margin-top: 20px;
   margin-bottom: 20px;
   display: block;
-  text-align: center;
+  text-align: left;
 }
 
 .ru li a{
