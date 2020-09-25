@@ -127,8 +127,8 @@ a.active,a.hover{
 
 @media (max-width:750px) {
   .contanier{
-    display: block;
-    float: none;
+    display: flex;
+    flex-direction: column;
   }
 
   .box{
