@@ -122,22 +122,11 @@ a.active,a.hover{
     left: 0;
   }
 
-
-}
-
-@media (max-width:750px) {
   .contanier{
     display: flex;
     flex-direction: column;
   }
 
-  .box{
-    width: 100%;
-  }
-
-  .inbox{
-    width: auto;
-  }
 }
 
 
