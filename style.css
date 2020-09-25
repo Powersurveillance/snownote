@@ -127,6 +127,14 @@ a.active,a.hover{
     flex-direction: column;
   }
 
+  .box{
+    width: 35%;
+  }
+
+  .inbox{
+    width: 65%;
+  }
+
 }
 
 @media (max-width:950px) {
