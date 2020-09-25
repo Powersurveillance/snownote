@@ -255,11 +255,8 @@ footer::after{
   float: left;
 }
 
-.to ul{
-
-}
-
-.to ul li{
+.to li{
+  visibility: visible;
   width: 100%;
   margin-top: 20px;
   margin-bottom: 20px;
@@ -267,13 +264,13 @@ footer::after{
   text-align: center;
 }
 
-.to ul li a{
+.to li a{
   text-decoration: none;
   font-size: 20px;
   color: grey;
 }
 
-.to ul li a:hover{
+.to li a:hover{
   text-decoration: underline;
   color: darkgrey;
 }
@@ -283,7 +280,8 @@ footer::after{
   float: right;
 }
 
-.ru ul li{
+.ru li{
+  visibility: visible;
   width: 100%;
   margin-top: 20px;
   margin-bottom: 20px;
@@ -291,13 +289,13 @@ footer::after{
   text-align: left;
 }
 
-.ru ul li a{
+.ru li a{
   text-decoration: none;
   font-size: 20px;
   color: grey;
 }
 
-.ru ul li a:hover{
+.ru li a:hover{
   text-decoration: underline;
   color: darkgrey;
 }
