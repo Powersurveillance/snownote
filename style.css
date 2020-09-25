@@ -129,6 +129,13 @@ a.active,a.hover{
 
 }
 
+@media (max-width:950px) {
+  .box,
+  .inbox{
+    width: 100%;
+  }
+  }
+
 
 .contanier{
   width: 100%;
