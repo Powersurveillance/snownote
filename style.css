@@ -222,17 +222,17 @@ footer::after{
   text-align: center;
 }
 
-.rit ul li a{
+.rit li a{
   font-size: 60px;
 }
 
-.rit ul li a i{
+.rit li a i{
   color:blue;
   border: 2px solid black;
   border-radius: 8px;
 }
 
-.rit ul li a i:hover{
+.rit li a i:hover{
   box-shadow: 0 0 20px blue;
   color:blue;
   border-top: 2px solid darkblue;
