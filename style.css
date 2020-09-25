@@ -135,13 +135,12 @@ a.active,a.hover{
   }
 
   .box{
-    width: 100%;
-    display: block;
+    max-width: 100%;
+
   }
 
   .inbox{
-    width: 100%;
-    display: block;
+    max-width: 100%;
   }
 
   footer{
