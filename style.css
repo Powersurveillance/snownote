@@ -128,26 +128,22 @@ a.active,a.hover{
   }
 
   .box{
-    width: 35%;
+    width: 100%;
+    display: block;
   }
 
   .inbox{
-    width: 65%;
+    width: 100%;
+    display: block;
   }
 
   footer{
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
   }
 
 }
-
-@media (max-width:950px) {
-  .box,
-  .inbox{
-    width: 100%;
-  }
-  }
 
 
 .contanier{
