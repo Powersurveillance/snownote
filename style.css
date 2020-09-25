@@ -85,6 +85,13 @@ a.active,a.hover{
   nav ul li a{
     font-size: 16px;
   }
+
+  .box img{
+    width: 100%;
+    display: block;
+  }
+
+
 }
 
 @media (max-width:950px) {
