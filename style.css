@@ -122,13 +122,22 @@ a.active,a.hover{
     left: 0;
   }
 
-  .to ul{
+
+}
+
+@media (max-width:750px) {
+  .contanier{
     display: block;
-    visibility: visible;
-    font-size: 6px;
+    float: none;
   }
 
+  .box{
+    width: 100%;
+  }
 
+  .inbox{
+    width: auto;
+  }
 }
 
 
