@@ -212,11 +212,8 @@ footer::after{
   float: left;
 }
 
-.rit ul{
-
-}
-
-.rit ul li{
+.rit li{
+  visibility: visible;
   display: inline-block;
   width: 40%;
   margin-top: 70px;
