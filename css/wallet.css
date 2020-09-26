@@ -93,8 +93,7 @@ a.active,a.hover{
 
   .box,
   .inbox{
-    width: 900px;
-    height: 300px;
+    width: 100%;
     justify-content: space-between;
   }
 
