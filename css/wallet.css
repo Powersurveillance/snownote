@@ -86,7 +86,7 @@ a.active,a.hover{
     font-size: 16px;
   }
 
-  .contanier{
+  section{
     display: flex;
     flex-direction: column;
   }
