@@ -87,7 +87,10 @@ a.active,a.hover{
   }
 
   .contanier{
+    display: flex;
     flex-direction: column;
+    justify-content: space-between;
+    margin: 1em 0;
   }
 
   .box,
@@ -140,7 +143,6 @@ section{
 }
 
 .contanier{
-  display: flex;
   width: 100%;
   margin-top: 100px;
   margin-bottom: 100px;
