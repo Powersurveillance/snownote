@@ -89,6 +89,7 @@ a.active,a.hover{
   .contanier{
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
   }
 
   .box,
