@@ -91,13 +91,10 @@ a.active,a.hover{
     flex-direction: column;
   }
 
-  .box{
-    max-width: 100%;
-
-  }
-
+  .box,
   .inbox{
-    max-width: 100%;
+    width: 100%;
+    
   }
 
 
