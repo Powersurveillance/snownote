@@ -6,7 +6,8 @@
 body{
   margin: 0px;
   padding: 0px;
-  background: #1e1e1e;
+  width: 100%;
+  background: url(/img/cover.jpg);
   box-sizing: border-box;
 }
 
@@ -137,10 +138,6 @@ a.active,a.hover{
 }
 
 
-section{
-  width: 100%;
-  background: url(/img/cover.jpg);
-}
 
 .contanier{
   width: 100%;
