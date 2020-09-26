@@ -87,18 +87,23 @@ a.active,a.hover{
   }
 
   .contanier{
-    display: flex;
     flex-direction: column;
   }
 
+  .box{
+    width: 40%
+  }
+  .inbox{
+    width: 60%;
+  }
+
+}
+
+@media (max-width:1050px) {
   .box,
   .inbox{
     width: 100%;
-    justify-content: space-between;
-    flex: auto;
   }
-
-
 }
 
 @media (max-width:950px) {
