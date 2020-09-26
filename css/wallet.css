@@ -89,13 +89,13 @@ a.active,a.hover{
   .contanier{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
   }
 
   .box,
   .inbox{
     width: 100%;
     height: 200px;
+    justify-content: space-between;
   }
 
 
