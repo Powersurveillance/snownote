@@ -85,6 +85,19 @@ a.active,a.hover{
   nav ul li a{
     font-size: 16px;
   }
+
+  .contanier{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .box,
+  .inbox{
+    width: 100%;
+
+  }
+
+
 }
 
 @media (max-width:950px) {
@@ -123,30 +136,6 @@ a.active,a.hover{
   }
 }
 
-@media screen and (max-width: 600px) {
-  .contanier{
-    width: 100%;
-    display: flex;
-  }
-
-  .box{
-    width: 800px;
-    display: inline-block;
-    justify-content: space-around;
-  }
-
-  .inbox{
-    width: 800px;
-    float: none;
-  }
-
-  .net{
-    max-width: 60%;
-    display: block;
-  }
-
-
-}
 
 section{
   background: url(/img/cover.jpg);
