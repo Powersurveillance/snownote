@@ -86,9 +86,18 @@ a.active,a.hover{
     font-size: 16px;
   }
 
-  .box img{
-    width: 100%;
-    display: block;
+  .contanier{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .box{
+    max-width: 100%;
+
+  }
+
+  .inbox{
+    max-width: 100%;
   }
 
 
@@ -127,20 +136,6 @@ a.active,a.hover{
 
   #check:checked ~ ul{
     left: 0;
-  }
-
-  .contanier{
-    display: flex;
-    flex-direction: column;
-  }
-
-  .box{
-    max-width: 100%;
-
-  }
-
-  .inbox{
-    max-width: 100%;
   }
 
   footer{
