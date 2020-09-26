@@ -90,20 +90,11 @@ a.active,a.hover{
     flex-direction: column;
   }
 
-  .box{
-    width: 40%
-  }
-  .inbox{
-    width: 60%;
-  }
-
-}
-
-@media (max-width:1050px) {
   .box,
   .inbox{
     width: 100%;
   }
+
 }
 
 @media (max-width:950px) {
