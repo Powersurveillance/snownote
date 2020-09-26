@@ -86,7 +86,7 @@ a.active,a.hover{
     font-size: 16px;
   }
 
-  section{
+  .contanier{
     display: flex;
     flex-direction: column;
   }
@@ -138,6 +138,7 @@ a.active,a.hover{
 
 
 section{
+  width: 100%;
   background: url(/img/cover.jpg);
 }
 
