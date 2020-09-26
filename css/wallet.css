@@ -90,7 +90,6 @@ a.active,a.hover{
   .contanier{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     margin: 1em 0;
   }
 
@@ -144,6 +143,7 @@ a.active,a.hover{
   margin-top: 100px;
   margin-bottom: 200px;
   background-size: cover;
+  justify-content: space-between;
 }
 
 .contanier::after{
