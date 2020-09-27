@@ -94,7 +94,7 @@ a.active,a.hover{
   .box,
   .inbox{
     width: 100%;
-    
+
   }
 
 
@@ -154,6 +154,8 @@ a.active,a.hover{
 
 .contanier{
   width: 100%;
+  margin: auto;
+  overflow: hidden;
   background-size: cover;
 }
 
