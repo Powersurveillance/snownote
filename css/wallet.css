@@ -88,14 +88,15 @@ a.active,a.hover{
   }
 
   .contanier{
+    width: 100%;
     display: flex;
     flex-direction: column;
     margin: 1em 0;
-    width: 100%;
   }
 
   .box,
   .inbox{
+    flex: none;
     width: 100%;
     height: 200px;
   }
@@ -136,6 +137,21 @@ a.active,a.hover{
   #check:checked ~ ul{
     left: 0;
   }
+
+  footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .to{
+    text-align: center;
+  }
+
+  .ru{
+    text-align: center;
+  }
+
 }
 
 
@@ -294,16 +310,14 @@ footer::after{
   content: '';
 }
 
+
 .rit{
   width: 35%;
   float: left;
 }
 
-.rit ul{
-
-}
-
-.rit ul li{
+.rit li{
+  visibility: visible;
   display: inline-block;
   width: 40%;
   margin-top: 70px;
@@ -312,17 +326,17 @@ footer::after{
   text-align: center;
 }
 
-.rit ul li a{
+.rit li a{
   font-size: 60px;
 }
 
-.rit ul li a i{
+.rit li a i{
   color:blue;
   border: 2px solid black;
   border-radius: 8px;
 }
 
-.rit ul li a i:hover{
+.rit li a i:hover{
   box-shadow: 0 0 20px blue;
   color:blue;
   border-top: 2px solid darkblue;
@@ -330,6 +344,7 @@ footer::after{
   border-left: 2px solid darkblue;
   border-right: 2px solid blue;
 }
+
 
 .kick{
   width: 65%;
@@ -341,25 +356,22 @@ footer::after{
   float: left;
 }
 
-.to ul{
-
-}
-
-.to ul li{
+.to li{
+  visibility: visible;
   width: 100%;
   margin-top: 20px;
   margin-bottom: 20px;
   display: block;
-  text-align: center;
+  text-align: left;
 }
 
-.to ul li a{
+.to li a{
   text-decoration: none;
   font-size: 20px;
   color: grey;
 }
 
-.to ul li a:hover{
+.to li a:hover{
   text-decoration: underline;
   color: darkgrey;
 }
@@ -369,7 +381,8 @@ footer::after{
   float: right;
 }
 
-.ru ul li{
+.ru li{
+  visibility: visible;
   width: 100%;
   margin-top: 20px;
   margin-bottom: 20px;
@@ -377,17 +390,18 @@ footer::after{
   text-align: left;
 }
 
-.ru ul li a{
+.ru li a{
   text-decoration: none;
   font-size: 20px;
   color: grey;
 }
 
-.ru ul li a:hover{
+.ru li a:hover{
   text-decoration: underline;
   color: darkgrey;
 }
 
 .ru p{
   color: white;
+
 }
