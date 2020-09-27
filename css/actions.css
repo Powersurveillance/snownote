@@ -328,11 +328,11 @@ footer::after{
   content: '';
 }
 
+
 .rit{
   width: 35%;
   float: left;
 }
-
 
 .rit li{
   visibility: visible;
@@ -363,6 +363,7 @@ footer::after{
   border-right: 2px solid blue;
 }
 
+
 .kick{
   width: 65%;
   float: right;
@@ -373,14 +374,13 @@ footer::after{
   float: left;
 }
 
-
 .to li{
   visibility: visible;
   width: 100%;
   margin-top: 20px;
   margin-bottom: 20px;
   display: block;
-  text-align: center;
+  text-align: left;
 }
 
 .to li a{
@@ -400,6 +400,7 @@ footer::after{
 }
 
 .ru li{
+  visibility: visible;
   width: 100%;
   margin-top: 20px;
   margin-bottom: 20px;
@@ -420,4 +421,5 @@ footer::after{
 
 .ru p{
   color: white;
+
 }
