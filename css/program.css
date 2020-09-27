@@ -86,6 +86,9 @@ a.active,a.hover{
     font-size: 16px;
   }
 
+  .box li{
+    font-size: 10px;
+  }
 
 }
 
