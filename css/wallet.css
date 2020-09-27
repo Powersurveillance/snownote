@@ -139,8 +139,6 @@ a.active,a.hover{
   }
 
   footer{
-    display: flex;
-    flex-direction: column;
     justify-content: space-between;
   }
 
