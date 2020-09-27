@@ -171,17 +171,9 @@ a.active,a.hover{
   border-bottom: 3px solid lightblue;
 }
 
-.box nav{
-  width: 100%;
-}
-
-.box nav ul{
-  width: 80%;
-  margin-left: 10%;
-}
 
 
-.box nav ul li{
+.box li{
   list-style: none;
   display: block;
   margin-top: 30px;
@@ -189,12 +181,12 @@ a.active,a.hover{
   font-size: 25px;
 }
 
-.box nav ul li a{
+.box li a{
   color: white;
   text-decoration: none;
 }
 
-.box nav ul li a:hover{
+.box li a:hover{
   color: blue;
 }
 
