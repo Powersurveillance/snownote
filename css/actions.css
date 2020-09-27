@@ -301,7 +301,6 @@ section{
 footer{
   width: 100%;
   background: black;
-  visibility: visible;
 }
 
 footer::after{
@@ -315,11 +314,9 @@ footer::after{
   float: left;
 }
 
-.rit ul{
 
-}
-
-.rit ul li{
+.rit li{
+  visibility: visible;
   display: inline-block;
   width: 40%;
   margin-top: 70px;
@@ -328,17 +325,17 @@ footer::after{
   text-align: center;
 }
 
-.rit ul li a{
+.rit li a{
   font-size: 60px;
 }
 
-.rit ul li a i{
+.rit li a i{
   color:blue;
   border: 2px solid black;
   border-radius: 8px;
 }
 
-.rit ul li a i:hover{
+.rit li a i:hover{
   box-shadow: 0 0 20px blue;
   color:blue;
   border-top: 2px solid darkblue;
@@ -357,11 +354,9 @@ footer::after{
   float: left;
 }
 
-.to ul{
 
-}
-
-.to ul li{
+.to li{
+  visibility: visible;
   width: 100%;
   margin-top: 20px;
   margin-bottom: 20px;
@@ -369,13 +364,13 @@ footer::after{
   text-align: center;
 }
 
-.to ul li a{
+.to li a{
   text-decoration: none;
   font-size: 20px;
   color: grey;
 }
 
-.to ul li a:hover{
+.to li a:hover{
   text-decoration: underline;
   color: darkgrey;
 }
@@ -385,7 +380,7 @@ footer::after{
   float: right;
 }
 
-.ru ul li{
+.ru li{
   width: 100%;
   margin-top: 20px;
   margin-bottom: 20px;
@@ -393,13 +388,13 @@ footer::after{
   text-align: left;
 }
 
-.ru ul li a{
+.ru li a{
   text-decoration: none;
   font-size: 20px;
   color: grey;
 }
 
-.ru ul li a:hover{
+.ru li a:hover{
   text-decoration: underline;
   color: darkgrey;
 }
