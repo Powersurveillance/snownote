@@ -134,10 +134,7 @@ a.active,a.hover{
     left: 0;
   }
 
-  footer{
-    display: block;
-    width: 100%;
-  }
+
 }
 
 section{
@@ -304,6 +301,7 @@ section{
 footer{
   width: 100%;
   background: black;
+  visibility: visible;
 }
 
 footer::after{
