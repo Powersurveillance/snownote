@@ -138,6 +138,20 @@ a.active,a.hover{
     left: 0;
   }
 
+  footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .to{
+    text-align: center;
+  }
+
+  .ru{
+    text-align: center;
+  }
+
 
 }
 
