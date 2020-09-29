@@ -258,6 +258,7 @@ footer::after{
 
 .to p{
   color: white;
+  text-align: left;
 }
 
 .to li{
@@ -307,5 +308,5 @@ footer::after{
 
 .ru p{
   color: white;
-
+  text-align: center;
 }
