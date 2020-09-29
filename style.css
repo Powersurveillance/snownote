@@ -256,6 +256,10 @@ footer::after{
   float: left;
 }
 
+.to p{
+  color: white;
+}
+
 .to li{
   visibility: visible;
   width: 100%;
