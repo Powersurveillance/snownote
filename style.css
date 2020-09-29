@@ -34,7 +34,6 @@ label.logo{
 nav ul{
   float: right;
   margin-right: 20px;
-  position: absolute;
 }
 
 nav ul li{
@@ -55,22 +54,6 @@ nav ul li a{
   padding: 7px 13px;
   border-radius: 3px;
   text-transform: uppercase;
-}
-
-nav ul li ul{
-  width: 230px;
-  height: 80px;
-  margin-left: auto;
-}
-
-nav ul li ul li{
-  display: none;
-  text-align: center;
-  margin: 0;
-}
-
-nav ul li:hover ul li{
-  display: block;
 }
 
 a.active,a.hover{
