@@ -98,7 +98,7 @@ a.active,a.hover{
   .inbox{
     flex-flow: column;
     width: 100%;
-    height: 200px;
+    height: 250px;
   }
 
 }
