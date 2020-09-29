@@ -56,6 +56,22 @@ nav ul li a{
   text-transform: uppercase;
 }
 
+nav ul li ul{
+  width: 230px;
+  height: 80px;
+  margin-left: auto;
+}
+
+nav ul li ul li{
+  display: none;
+  text-align: center;
+  margin: 0;
+}
+
+nav ul li:hover ul li{
+  display: block;
+}
+
 a.active,a.hover{
   background: #1e1e1e;
   transition: .5s;
