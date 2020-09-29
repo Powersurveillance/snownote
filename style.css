@@ -227,7 +227,7 @@ footer::after{
 }
 
 .rit li a{
-  font-size: 60px;
+  font-size: 40px;
 }
 
 .rit li a i{
@@ -239,10 +239,6 @@ footer::after{
 .rit li a i:hover{
   box-shadow: 0 0 20px blue;
   color:blue;
-  border-top: 2px solid darkblue;
-  border-bottom: 2px solid blue;
-  border-left: 2px solid darkblue;
-  border-right: 2px solid blue;
 }
 
 
