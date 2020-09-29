@@ -85,6 +85,19 @@ a.active,a.hover{
   nav ul li a{
     font-size: 16px;
   }
+
+  .contanier{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .box,
+  .inbox{
+    width: 100%;
+
+  }
+
+
 }
 
 @media (max-width:950px) {
