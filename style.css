@@ -141,16 +141,11 @@ a.active,a.hover{
     justify-content: space-between;
   }
 
-  .rit li{
-    margin-left: 4%;
-  }
-
-  .to{
-    text-align: center;
-  }
-
+  .rit,
+  .to,
   .ru{
     text-align: center;
+    width: 100%;
   }
 
 }
