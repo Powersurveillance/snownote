@@ -187,7 +187,7 @@ section{
 .work{
   background: #1e1e1e;
   width: 20%;
-  margin-left: 20%; 
+  margin-left: 20%;
   margin-top: 100px;
   margin-bottom: 100px;
   border: 4px solid blue;
@@ -337,15 +337,15 @@ footer::after{
 .rit li{
   visibility: visible;
   display: inline-block;
-  width: 40%;
+  width: 20%;
   margin-top: 70px;
   margin-bottom: 70px;
-  margin-left: 5%;
+  margin-left: 3%;
   text-align: center;
 }
 
 .rit li a{
-  font-size: 60px;
+  font-size: 40px;
 }
 
 .rit li a i{
@@ -357,10 +357,6 @@ footer::after{
 .rit li a i:hover{
   box-shadow: 0 0 20px blue;
   color:blue;
-  border-top: 2px solid darkblue;
-  border-bottom: 2px solid blue;
-  border-left: 2px solid darkblue;
-  border-right: 2px solid blue;
 }
 
 
@@ -372,6 +368,11 @@ footer::after{
 .to{
   width: 50%;
   float: left;
+}
+
+.to p{
+  color: white;
+  text-align: left;
 }
 
 .to li{
@@ -421,5 +422,5 @@ footer::after{
 
 .ru p{
   color: white;
-
+  text-align: left;
 }
