@@ -133,6 +133,20 @@ a.active,a.hover{
   #check:checked ~ ul{
     left: 0;
   }
+
+  footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .rit,
+  .to,
+  .ru{
+    text-align: center;
+    width: 100%;
+  }
+
 }
 
 section{
