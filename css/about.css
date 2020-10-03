@@ -94,7 +94,23 @@ a.active,a.hover{
   .box,
   .inbox{
     width: 100%;
+  }
 
+  .box img{
+    margin-left: 29%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+
+  .inbox h2{
+    margin-left: 5%;
+    font-size: 20px;
+  }
+
+  .inbox p{
+    margin-left: 5%;
+    color: white;
+    font-size: 15px;
   }
 
 }
