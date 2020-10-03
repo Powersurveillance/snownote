@@ -140,11 +140,12 @@ a.active,a.hover{
     justify-content: space-between;
   }
 
-  .rit,
-  .to,
+  .to{
+    text-align: center;
+  }
+
   .ru{
     text-align: center;
-    width: 100%;
   }
 
 }
