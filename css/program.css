@@ -86,19 +86,7 @@ a.active,a.hover{
   }
 
   .contanier{
-    display: flex;
-    flex-direction: column;
-    margin: 1em 0;
     width: 100%;
-  }
-
-  .box,
-  .inbox{
-    width: 1050px;
-  }
-
-  .stock{
-    width: 98%;
   }
 
 }
