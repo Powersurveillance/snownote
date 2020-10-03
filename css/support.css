@@ -76,7 +76,7 @@ a.active,a.hover{
   display: none
 }
 
-@media (max-width:1050px) {
+@media (max-width:816px) {
   label.logo{
     font-size: 30px;
     padding-left: 50px;
@@ -97,10 +97,18 @@ a.active,a.hover{
 
   }
 
+  .net{
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+
 
 }
 
-@media (max-width:950px) {
+@media (max-width:740px) {
   .checkbtn{
     display: block;
   }
