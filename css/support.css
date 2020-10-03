@@ -105,6 +105,15 @@ a.active,a.hover{
     text-align: center;
   }
 
+  .net h2{
+    font-size: 12px;
+  }
+
+  .net li{
+    color: white;
+    font-size: 10px;
+  }
+
 
 }
 
