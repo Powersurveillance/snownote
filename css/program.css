@@ -7,7 +7,6 @@ body{
   margin: 0px;
   padding: 0px;
   background: #1e1e1e;
-  box-sizing: border-box;
 }
 
 nav{
@@ -76,7 +75,7 @@ a.active,a.hover{
   display: none
 }
 
-@media (max-width:1050px) {
+@media (max-width:864px) {
   label.logo{
     font-size: 30px;
     padding-left: 50px;
@@ -86,13 +85,25 @@ a.active,a.hover{
     font-size: 16px;
   }
 
-  .box li a{
-    font-size: 12px;
+  .contanier{
+    display: flex;
+    flex-direction: column;
+    margin: 1em 0;
+    width: 100%;
+  }
+
+  .box,
+  .inbox{
+    width: 1050px;
+  }
+
+  .stock{
+    width: 98%;
   }
 
 }
 
-@media (max-width:950px) {
+@media (max-width:740px) {
   .checkbtn{
     display: block;
   }
@@ -126,28 +137,20 @@ a.active,a.hover{
   #check:checked ~ ul{
     left: 0;
   }
-}
 
-@media screen and (max-width: 600px) {
-  .contanier{
-    width: 100%;
+  footer{
     display: flex;
+    flex-direction: column;
+    justify-content: space-between;
   }
 
-  .box{
-    width: 800px;
-    display: inline-block;
-    justify-content: space-around;
+  .to{
+    text-align: center;
+    float: left;
   }
 
-  .inbox{
-    width: 800px;
-    float: none;
-  }
-
-  .net{
-    max-width: 60%;
-    display: block;
+  .ru{
+    text-align: center;
   }
 
 
