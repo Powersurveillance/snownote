@@ -76,7 +76,7 @@ a.active,a.hover{
   display: none
 }
 
-@media (max-width:1000px) {
+@media (max-width:864px) {
   label.logo{
     font-size: 30px;
     padding-left: 50px;
@@ -94,13 +94,13 @@ a.active,a.hover{
   .box,
   .inbox{
     width: 100%;
-    
+
   }
 
 
 }
 
-@media (max-width:950px) {
+@media (max-width:740px) {
   .checkbtn{
     display: block;
   }
