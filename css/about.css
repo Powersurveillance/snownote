@@ -103,14 +103,14 @@ a.active,a.hover{
   }
 
   .inbox h2{
-    margin-left: 5%;
+    margin-left: 20%;
     font-size: 20px;
   }
 
   .inbox p{
-    margin-left: 5%;
+    margin-left: 20%;
     color: white;
-    font-size: 15px;
+    font-size: 10px;
   }
 
 }
