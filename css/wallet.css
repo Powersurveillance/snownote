@@ -100,10 +100,6 @@ a.active,a.hover{
     width: 100%;
   }
 
-  .net{
-    margin-left: 40%;
-  }
-
 }
 
 @media (max-width:858px) {
@@ -139,6 +135,10 @@ a.active,a.hover{
 
   #check:checked ~ ul{
     left: 0;
+  }
+
+  .net{
+    margin-left: 40%;
   }
 
   footer{
