@@ -91,12 +91,10 @@ a.active,a.hover{
     width: 100%;
     display: flex;
     flex-direction: column;
-    margin: 1em 0;
   }
 
   .box,
   .inbox{
-    columns: 100%;
     width: 100%;
   }
 
