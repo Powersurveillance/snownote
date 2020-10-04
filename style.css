@@ -94,9 +94,19 @@ a.active,a.hover{
   .box,
   .inbox{
     width: 100%;
-
   }
 
+  .box img{
+    margin-left: 31%;
+  }
+
+  .inbox h2{
+    margin-left: 5%;
+  }
+
+  .inbox p{
+    margin-left: 5%;
+  }
 
 }
 
