@@ -96,22 +96,6 @@ a.active,a.hover{
     width: 100%;
   }
 
-  .box img{
-    margin-left: 29%;
-    margin-top: 10px;
-    margin-bottom: 20px;
-  }
-
-  .inbox h2{
-    margin-left: 20%;
-    font-size: 20px;
-  }
-
-  .inbox p{
-    margin-left: 20%;
-    color: white;
-    font-size: 10px;
-  }
 
 }
 
@@ -148,6 +132,23 @@ a.active,a.hover{
 
   #check:checked ~ ul{
     left: 0;
+  }
+
+  .box img{
+    margin-left: 29%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+
+  .inbox h2{
+    margin-left: 20%;
+    font-size: 20px;
+  }
+
+  .inbox p{
+    margin-left: 20%;
+    color: white;
+    font-size: 10px;
   }
 
   footer{
