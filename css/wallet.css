@@ -90,6 +90,7 @@ a.active,a.hover{
   .contanier{
     width: 100%;
     display: flex;
+    justify-content: space-between;
     flex-direction: column;
   }
 
