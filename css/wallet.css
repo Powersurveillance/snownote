@@ -141,6 +141,10 @@ a.active,a.hover{
     margin-left: 40%;
   }
 
+  .net small{
+    font-size: 15px;
+  }
+
   footer{
     display: flex;
     flex-direction: column;
