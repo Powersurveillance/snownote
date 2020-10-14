@@ -44,7 +44,7 @@ nav ul li{
 
 nav ul li a:hover{
   border-bottom: 3px solid blue;
-  color: white;
+  color: grey;
 }
 
 nav ul li a{
