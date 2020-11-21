@@ -210,10 +210,14 @@ a.active,a.hover{
 
 .inbox a{
   text-decoration: none;
-  background:blue;
+  background:darkblue;
   color:white;
   margin-left: 5%;
   margin-top: 30px;
+}
+
+.inbox a:hover{
+  border: 2px solid blue;
 }
 
 footer{
