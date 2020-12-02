@@ -214,11 +214,12 @@ a.active,a.hover{
   color:white;
   margin-left: 5%;
   margin-top: 30px;
-  border: 2px;
+  border: 2px solid blue;
 }
 
 .inbox a:hover{
-  border: 2px solid blue;
+  box-shadow: 0 0 10px blue;
+  background: linear-gradient(blue 20%, darkblue 80%);
 }
 
 footer{
