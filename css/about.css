@@ -103,13 +103,11 @@ a.active,a.hover{
   }
 
   .inbox h2{
-    width: 400px;
     margin-left: 20%;
     font-size: 20px;
   }
 
   .inbox p{
-    width: 400px;
     margin-left: 20%;
     color: white;
     font-size: 7px;
@@ -246,7 +244,7 @@ section{
 }
 
 .inbox h2{
-  width: 90%;
+  width: 420px;
   border-bottom: 2px solid lightblue;
   color: darkgrey;
   margin-top: 20px;
@@ -254,7 +252,7 @@ section{
 }
 
 .inbox p{
-  width: 90%;
+  width: 420px;
   margin-left: 2%;
   margin-top: 40px;
   color: white;
