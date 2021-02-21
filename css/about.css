@@ -105,14 +105,14 @@ a.active,a.hover{
   .inbox h2{
     width: 400px;
     margin-left: 20%;
-    font-size: 10px;
+    font-size: 20px;
   }
 
   .inbox p{
     width: 400px;
     margin-left: 20%;
     color: white;
-    font-size: 10px;
+    font-size: 7px;
   }
 
 
