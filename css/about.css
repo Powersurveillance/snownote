@@ -246,7 +246,7 @@ section{
 }
 
 .inbox h2{
-  width: 400px;
+  width: 90%;
   border-bottom: 2px solid lightblue;
   color: darkgrey;
   margin-top: 20px;
@@ -254,7 +254,7 @@ section{
 }
 
 .inbox p{
-  width: 400px;
+  width: 90%;
   margin-left: 5%;
   margin-top: 40px;
   color: white;
