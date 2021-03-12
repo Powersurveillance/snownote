@@ -85,3 +85,175 @@ a.active,a.hover{
   nav ul li a{
     font-size: 16px;
   }
+
+  .contanier{
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+    background-size: cover;
+  }
+
+  .contanier::after{
+    clear: both;
+    display: table;
+    content: '';
+  }
+
+
+  .box{
+    width: 35%;
+    float: left;
+  }
+
+  .box img{
+    width: 400px;
+    margin-left: 5%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  .inbox{
+    width: 65%;
+    float: right;
+  }
+
+  .inbox h2{
+    border-bottom: 2px solid lightblue;
+    color: darkgrey;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .inbox p{
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+  }
+
+  .inbox a{
+    text-decoration: none;
+    background:blue;
+    color:white;
+    margin-left: 5%;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    border: 2px solid blue;
+    border-radius: 20px;
+  }
+
+  .inbox a:hover{
+    box-shadow: 0 0 10px blue;
+    background: linear-gradient(blue 20%, darkblue 80%);
+  }
+
+  footer{
+    width: 100%;
+    background: black;
+  }
+
+  footer::after{
+    clear: both;
+    display: table;
+    content: '';
+  }
+
+
+  .rit{
+    width: 35%;
+    float: left;
+  }
+
+  .rit li{
+    visibility: visible;
+    display: inline-block;
+    width: 20%;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    margin-left: 3%;
+    text-align: center;
+  }
+
+  .rit li a{
+    font-size: 40px;
+  }
+
+  .rit li a i{
+    color:blue;
+    border: 2px solid black;
+    border-radius: 8px;
+  }
+
+  .rit li a i:hover{
+    box-shadow: 0 0 20px blue;
+    color:blue;
+  }
+
+
+  .kick{
+    width: 65%;
+    float: right;
+  }
+
+  .to{
+    width: 50%;
+    float: left;
+  }
+
+  .to p{
+    color: white;
+    text-align: left;
+  }
+
+  .to li{
+    visibility: visible;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: block;
+    text-align: left;
+  }
+
+  .to li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: grey;
+  }
+
+  .to li a:hover{
+    text-decoration: underline;
+    color: darkgrey;
+  }
+
+  .ru{
+    width: 50%;
+    float: right;
+  }
+
+  .ru li{
+    visibility: visible;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: block;
+    text-align: left;
+  }
+
+  .ru li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: grey;
+  }
+
+  .ru li a:hover{
+    text-decoration: underline;
+    color: darkgrey;
+  }
+
+  .ru p{
+    color: white;
+    text-align: left;
+  }
