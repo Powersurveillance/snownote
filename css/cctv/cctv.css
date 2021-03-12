@@ -87,173 +87,248 @@ a.active,a.hover{
   }
 
   .contanier{
-    width: 100%;
-    margin: auto;
-    overflow: hidden;
-    background-size: cover;
+    display: flex;
+    flex-direction: column;
   }
 
-  .contanier::after{
-    clear: both;
-    display: table;
-    content: '';
-  }
-
-
-  .box{
-    width: 35%;
-    float: left;
-  }
-
-  .box img{
-    width: 400px;
-    margin-left: 5%;
-    margin-top: 50px;
-    margin-bottom: 50px;
-  }
-
+  .box,
   .inbox{
-    width: 65%;
-    float: right;
+    width: 100%;
   }
 
-  .inbox h2{
-    border-bottom: 2px solid lightblue;
-    color: darkgrey;
-    margin-top: 20px;
-    margin-bottom: 20px;
+}
+
+@media (max-width:858px) {
+  .checkbtn{
+    display: block;
   }
 
-  .inbox p{
-    width: 90%;
-    margin-left: 5%;
-    margin-top: 40px;
-    margin-bottom: 20px;
-    color: white;
+  ul{
+    position: fixed;
+    background: black;
+    width: 100%;
+    height: 100vh;
+    top: 80px;
+    left: -100%;
+    text-align: center;
+    transition: all .5s;
+  }
+
+  nav ul li{
+      display: block;
+      margin: 50px 0;
+      line-height: 30px;
+  }
+
+  nav ul li a{
     font-size: 20px;
-    border-radius: 5px;
   }
 
-  .inbox a{
-    text-decoration: none;
-    background:blue;
-    color:white;
-    margin-left: 5%;
-    margin-top: 30px;
-    margin-bottom: 20px;
-    border: 2px solid blue;
-    border-radius: 20px;
+  a:hover,a.active{
+    background: none;
+    color: blue;
   }
 
-  .inbox a:hover{
-    box-shadow: 0 0 10px blue;
-    background: linear-gradient(blue 20%, darkblue 80%);
+  #check:checked ~ ul{
+    left: 0;
   }
 
   footer{
-    width: 100%;
-    background: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
   }
 
-  footer::after{
-    clear: both;
-    display: table;
-    content: '';
-  }
-
-
-  .rit{
-    width: 35%;
-    float: left;
-  }
-
-  .rit li{
-    visibility: visible;
-    display: inline-block;
-    width: 20%;
-    margin-top: 70px;
-    margin-bottom: 70px;
-    margin-left: 3%;
-    text-align: center;
-  }
-
-  .rit li a{
-    font-size: 40px;
-  }
-
-  .rit li a i{
-    color:blue;
-    border: 2px solid black;
-    border-radius: 8px;
-  }
-
-  .rit li a i:hover{
-    box-shadow: 0 0 20px blue;
-    color:blue;
-  }
-
-
-  .kick{
-    width: 65%;
-    float: right;
-  }
-
-  .to{
-    width: 50%;
-    float: left;
-  }
-
-  .to p{
-    color: white;
-    text-align: left;
-  }
-
-  .to li{
-    visibility: visible;
-    width: 100%;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    display: block;
-    text-align: left;
-  }
-
-  .to li a{
-    text-decoration: none;
-    font-size: 20px;
-    color: grey;
-  }
-
-  .to li a:hover{
-    text-decoration: underline;
-    color: darkgrey;
-  }
-
+  .rit,
+  .to,
   .ru{
-    width: 50%;
-    float: right;
-  }
-
-  .ru li{
-    visibility: visible;
+    text-align: center;
     width: 100%;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    display: block;
-    text-align: left;
   }
 
-  .ru li a{
-    text-decoration: none;
-    font-size: 20px;
-    color: grey;
+  .box img{
+    margin-left: 31%;
   }
 
-  .ru li a:hover{
-    text-decoration: underline;
-    color: darkgrey;
+  .inbox h2{
+    margin-left: 5%;
   }
 
-  .ru p{
-    color: white;
-    text-align: left;
+  .inbox p{
+    margin-left: 5%;
   }
+
+}
+
+
+.contanier{
+  width: 100%;
+  margin: auto;
+  overflow: hidden;
+  background-size: cover;
+}
+
+.contanier::after{
+  clear: both;
+  display: table;
+  content: '';
+}
+
+
+.box{
+  width: 35%;
+  float: left;
+}
+
+.box img{
+  width: 400px;
+  margin-left: 5%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.inbox{
+  width: 65%;
+  float: right;
+}
+
+.inbox h2{
+  border-bottom: 2px solid lightblue;
+  color: darkgrey;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.inbox p{
+  width: 90%;
+  margin-left: 5%;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  color: white;
+  font-size: 20px;
+  border-radius: 5px;
+}
+
+.inbox a{
+  text-decoration: none;
+  background:blue;
+  color:white;
+  margin-left: 5%;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  border: 2px solid blue;
+  border-radius: 20px;
+}
+
+.inbox a:hover{
+  box-shadow: 0 0 10px blue;
+  background: linear-gradient(blue 20%, darkblue 80%);
+}
+
+footer{
+  width: 100%;
+  background: black;
+}
+
+footer::after{
+  clear: both;
+  display: table;
+  content: '';
+}
+
+
+.rit{
+  width: 35%;
+  float: left;
+}
+
+.rit li{
+  visibility: visible;
+  display: inline-block;
+  width: 20%;
+  margin-top: 70px;
+  margin-bottom: 70px;
+  margin-left: 3%;
+  text-align: center;
+}
+
+.rit li a{
+  font-size: 40px;
+}
+
+.rit li a i{
+  color:blue;
+  border: 2px solid black;
+  border-radius: 8px;
+}
+
+.rit li a i:hover{
+  box-shadow: 0 0 20px blue;
+  color:blue;
+}
+
+
+.kick{
+  width: 65%;
+  float: right;
+}
+
+.to{
+  width: 50%;
+  float: left;
+}
+
+.to p{
+  color: white;
+  text-align: left;
+}
+
+.to li{
+  visibility: visible;
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: block;
+  text-align: left;
+}
+
+.to li a{
+  text-decoration: none;
+  font-size: 20px;
+  color: grey;
+}
+
+.to li a:hover{
+  text-decoration: underline;
+  color: darkgrey;
+}
+
+.ru{
+  width: 50%;
+  float: right;
+}
+
+.ru li{
+  visibility: visible;
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: block;
+  text-align: left;
+}
+
+.ru li a{
+  text-decoration: none;
+  font-size: 20px;
+  color: grey;
+}
+
+.ru li a:hover{
+  text-decoration: underline;
+  color: darkgrey;
+}
+
+.ru p{
+  color: white;
+  text-align: left;
+}
