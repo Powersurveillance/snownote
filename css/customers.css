@@ -149,111 +149,110 @@ a.active,a.hover{
     background: linear-gradient(blue 20%, darkblue 80%);
   }
 
+  footer{
+    width: 100%;
+    background: black;
+  }
 
-footer{
-  width: 100%;
-  background: black;
-}
-
-footer::after{
-  clear: both;
-  display: table;
-  content: '';
-}
-
-
-.rit{
-  width: 35%;
-  float: left;
-}
-
-.rit li{
-  visibility: visible;
-  display: inline-block;
-  width: 20%;
-  margin-top: 70px;
-  margin-bottom: 70px;
-  margin-left: 3%;
-  text-align: center;
-}
-
-.rit li a{
-  font-size: 40px;
-}
-
-.rit li a i{
-  color:blue;
-  border: 2px solid black;
-  border-radius: 8px;
-}
-
-.rit li a i:hover{
-  box-shadow: 0 0 20px blue;
-  color:blue;
-}
+  footer::after{
+    clear: both;
+    display: table;
+    content: '';
+  }
 
 
-.kick{
-  width: 65%;
-  float: right;
-}
+  .rit{
+    width: 35%;
+    float: left;
+  }
 
-.to{
-  width: 50%;
-  float: left;
-}
+  .rit li{
+    visibility: visible;
+    display: inline-block;
+    width: 20%;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    margin-left: 3%;
+    text-align: center;
+  }
 
-.to p{
-  color: white;
-  text-align: left;
-}
+  .rit li a{
+    font-size: 40px;
+  }
 
-.to li{
-  visibility: visible;
-  width: 100%;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  display: block;
-  text-align: left;
-}
+  .rit li a i{
+    color:blue;
+    border: 2px solid black;
+    border-radius: 8px;
+  }
 
-.to li a{
-  text-decoration: none;
-  font-size: 20px;
-  color: grey;
-}
+  .rit li a i:hover{
+    box-shadow: 0 0 20px blue;
+    color:blue;
+  }
 
-.to li a:hover{
-  text-decoration: underline;
-  color: darkgrey;
-}
 
-.ru{
-  width: 50%;
-  float: right;
-}
+  .kick{
+    width: 65%;
+    float: right;
+  }
 
-.ru li{
-  visibility: visible;
-  width: 100%;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  display: block;
-  text-align: left;
-}
+  .to{
+    width: 50%;
+    float: left;
+  }
 
-.ru li a{
-  text-decoration: none;
-  font-size: 20px;
-  color: grey;
-}
+  .to p{
+    color: white;
+    text-align: left;
+  }
 
-.ru li a:hover{
-  text-decoration: underline;
-  color: darkgrey;
-}
+  .to li{
+    visibility: visible;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: block;
+    text-align: left;
+  }
 
-.ru p{
-  color: white;
-  text-align: left;
-}
+  .to li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: grey;
+  }
+
+  .to li a:hover{
+    text-decoration: underline;
+    color: darkgrey;
+  }
+
+  .ru{
+    width: 50%;
+    float: right;
+  }
+
+  .ru li{
+    visibility: visible;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: block;
+    text-align: left;
+  }
+
+  .ru li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: grey;
+  }
+
+  .ru li a:hover{
+    text-decoration: underline;
+    color: darkgrey;
+  }
+
+  .ru p{
+    color: white;
+    text-align: left;
+  }
