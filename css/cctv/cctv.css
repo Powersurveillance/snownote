@@ -225,6 +225,11 @@ a.active,a.hover{
   background: linear-gradient(blue 20%, darkblue 80%);
 }
 
+.inbox li{
+  color: white;
+  font-size: 18px;
+}
+
 footer{
   width: 100%;
   background: black;
