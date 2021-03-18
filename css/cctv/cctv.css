@@ -228,6 +228,8 @@ a.active,a.hover{
 .inbox li{
   color: white;
   font-size: 18px;
+  margin-top: 14px;
+  margin-bottom: 14px;
 }
 
 footer{
