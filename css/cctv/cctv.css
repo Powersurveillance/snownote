@@ -158,6 +158,11 @@ a.active,a.hover{
     margin-left: 5%;
   }
 
+  .inbox li{
+    margin-left: 5%;
+    font-size: 13px;
+  }
+
 }
 
 
@@ -227,7 +232,7 @@ a.active,a.hover{
 
 .inbox li{
   color: white;
-  font-size: 14px;
+  font-size: 15px;
   margin-top: 14px;
   margin-bottom: 14px;
 }
