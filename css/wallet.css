@@ -95,11 +95,11 @@ a.active,a.hover{
   }
 
   .box{
-    width: 400px;
+    width: 100%;
   }
 
   .inbox{
-    width: 500px;
+    width: 100%;
   }
 
 }
