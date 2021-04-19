@@ -91,7 +91,6 @@ a.active,a.hover{
     flex-direction: column;
   }
 
-  .box,
   .inbox{
     width: 410px;
   }
