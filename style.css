@@ -146,6 +146,30 @@ a.active,a.hover{
     width: 100%;
   }
 
+  .search{
+    width: 100%;
+    display: inline-block;
+  }
+
+  .search input{
+    width: 70%;
+    margin-left: 2%;
+    height: 30px;
+    color: blue;
+    background: black;
+    border-left: 2px solid blue;
+    border-top: 2px solid blue;
+    border-right: 2px solid darkblue;
+    border-bottom: 2px solid darkblue;
+  }
+
+  .search button{
+    width: 20%;
+    margin-left: 2%;
+    height: 30px;
+    background: blue;
+  }
+
   .box img{
     margin-left: 31%;
   }
