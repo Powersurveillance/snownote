@@ -221,6 +221,7 @@ a.active,a.hover{
 }
 
 .inbox h2{
+  width: 400px;
   border-bottom: 2px solid lightblue;
   color: darkgrey;
   margin-top: 20px;
@@ -228,7 +229,7 @@ a.active,a.hover{
 }
 
 .inbox p{
-  width: 90%;
+  width: 400px;
   margin-left: 5%;
   margin-top: 40px;
   margin-bottom: 20px;
