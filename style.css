@@ -147,31 +147,7 @@ a.active,a.hover{
   .to,
   .ru{
     text-align: center;
-    width: 100%;
-  }
-
-  .search{
-    width: 100%;
-    display: inline-block;
-  }
-
-  .search input{
-    width: 80%;
-    margin-left: 1%;
-    height: 30px;
-    color: blue;
-    background: black;
-    border-left: 2px solid blue;
-    border-top: 2px solid blue;
-    border-right: 2px solid darkblue;
-    border-bottom: 2px solid darkblue;
-  }
-
-  .search button{
-    width: 20%;
-    margin-left: 1%;
-    height: 30px;
-    background: blue;
+    width: 400px;
   }
 
   .box img{
