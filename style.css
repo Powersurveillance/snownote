@@ -46,6 +46,7 @@ nav ul li a:hover{
   border-bottom: 3px solid blue;
   color: white;
   background: blue;
+  
 }
 
 nav ul li a{
@@ -56,6 +57,7 @@ nav ul li a{
   text-transform: uppercase;
   border: 2px solid blue;
   background: linear-gradient(darkblue 20%, blue 80%);
+  border-radius: 2px;
 }
 
 a.active,a.hover{
