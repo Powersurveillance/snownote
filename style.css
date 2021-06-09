@@ -40,13 +40,12 @@ nav ul li{
   display: inline-block;
   line-height: 80px;
   margin: 0 5px;
-  border: 2px solid blue;
-  background: linear-gradient(darkblue 20%, blue 80%);
 }
 
 nav ul li a:hover{
   border-bottom: 3px solid blue;
-  color: grey;
+  color: white;
+  background: blue;
 }
 
 nav ul li a{
@@ -54,8 +53,9 @@ nav ul li a{
   text-decoration: none;
   font-size: 17px;
   padding: 7px 13px;
-  border-radius: 3px;
   text-transform: uppercase;
+  border: 2px solid blue;
+  background: linear-gradient(darkblue 20%, blue 80%);
 }
 
 a.active,a.hover{
