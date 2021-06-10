@@ -146,6 +146,10 @@ a.active,a.hover{
     left: 0;
   }
 
+  .rut{
+    margin-left: 16%;
+  }
+
   .net{
     margin-left: 40%;
   }
