@@ -228,7 +228,7 @@ section{
 }
 
 .box{
-  width: 45%;
+  width: 35%;
   float: left;
 }
 
@@ -262,7 +262,7 @@ section{
 }
 
 .inbox{
-  width: 55%;
+  width: 60%;
   float: right;
 }
 
