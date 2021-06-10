@@ -46,6 +46,7 @@ nav ul li a:hover{
   border-bottom: 3px solid blue;
   color: white;
   background: blue;
+  box-shadow: 0 0 20px blue;
 }
 
 nav ul li a{
@@ -62,7 +63,6 @@ nav ul li a{
 
 a.active,a.hover{
   background: blue;
-  box-shadow: 0 0 20px blue;
   transition: .5s;
 }
 
