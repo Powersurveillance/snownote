@@ -97,7 +97,7 @@ a.active,a.hover{
   }
 
   .inbox{
-    width: 410px;
+    width: 400px;
   }
 
   .box img{
@@ -248,7 +248,7 @@ section{
 }
 
 .inbox h2{
-  width: 410px;
+  width: 95%;
   border-bottom: 2px solid lightblue;
   color: darkgrey;
   margin-top: 20px;
@@ -256,8 +256,8 @@ section{
 }
 
 .inbox p{
-  width: 410px;
-  margin-left: 2%;
+  width: 90%;
+  margin-left: 30px;
   margin-top: 40px;
   color: white;
   font-size: 15px;
