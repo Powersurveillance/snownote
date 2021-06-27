@@ -127,7 +127,7 @@ a.active,a.hover{
 
   ul{
     position: fixed;
-    background: black;
+    background: blue;
     width: 100%;
     height: 100vh;
     top: 80px;
@@ -235,10 +235,10 @@ section{
 }
 
 .box img{
-  width: 400px;
+  width: 390px;
   height: 300px;
-  margin-left: 5%;
-  margin-top: 50px;
+  margin-left: 20px;
+  margin-top: 20px;
   margin-bottom: 50px;
 }
 
