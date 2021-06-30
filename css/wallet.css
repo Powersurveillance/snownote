@@ -109,6 +109,10 @@ a.active,a.hover{
     margin-top: 50px;
   }
 
+  .rut p{
+    display: none;
+  }
+
 }
 
 @media (max-width:858px) {
